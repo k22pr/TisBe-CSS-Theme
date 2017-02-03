@@ -1,0 +1,125 @@
+@charset "utf-8";
+@import "variable.scss";
+body{
+	background:#f5f5f5;font-size:13px;font-family:'Malgun Gothic',Helvetica Neue,Hevetica,'굴림',Sans-serif;line-height:150%;letter-spacing:0.1;
+	-webkit-overflow-scrolling: touch;overflow-scrolling: touch;overflow-y:auto;-webkit-overflow-scrolling: touch;-moz-overflow-scrolling: touch;-ms-overflow-scrolling: touch;
+	canvas, article, section, div, button{position:relative;word-break:break-all;display:block}
+}
+
+ 
+	@for $i from 1 through 12{
+		//Width
+		.pw#{$i}{width:calc(100%  / 12 * #{$i}) !important;float:left;word-break:break-all;}
+		//Wdith Deep
+		.pwd#{$i}{width:calc((100%  / 12 * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all}
+		
+	}
+	
+	@for $i from 0 through 15{
+		//Padding
+		.p#{$i}{padding:#{$i}px}
+		.lp#{$i}{padding-left:#{$i}px}
+		.rp#{$i}{padding-right:#{$i}px}
+		.tp#{$i}{padding-top:#{$i}px}
+		.bp#{$i}{padding-bottom:#{$i}px}
+		//Margin
+		.m#{$i}{margin:#{$i}px}
+		.lm#{$i}{margin-left:#{$i}px}
+		.rm#{$i}{margin-right:#{$i}px}
+		.tm#{$i}{margin-top:#{$i}px}
+		.bm#{$i}{margin-bottom:#{$i}px}
+	}
+	
+	@for $i from 1 through 10{
+		//Width Padding
+		.wp#{$i}{width:calc(100%  / 10 * #{$i}) !important;float:left;word-break:break-all}
+		//width Deep Padding
+		.wdp#{$i}{width:calc((100%  / 10 * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all}
+	}
+	
+	//border
+	.bdr1{border-bottom:1px solid $border-color}
+	//bottom border
+	.bbdr1{border-bottom:1px solid $border-color}
+	.tbdr1{border-top:1px solid $border-color}
+	.rbdr1{border-right:1px solid $border-color}
+	.lbdr1{border-left:1px solid $border-color}
+	//zero border size
+	.bdr0{border-bottom:none}
+	.bbdr0{border-bottom:none}
+	.tbdr0{border-top:none}
+	.rbdr0{border-right:none}
+	.lbdr0{border-left:none}
+	
+	
+	//image size
+	img.i16{width:16px;height:16px;}
+	img.i32{width:32px;height:32px;}
+	img.i64{width:64px;height:64px;}
+	img.i128{width:128px;height:128px;}
+	
+
+//font size & highlight
+ .h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5{font-family:"Malgun Gothic",Helvetica Neue,Hevetica,"굴림",sans-serif;line-height:1.51;margin-top:0px;margin-bottom:0px;}
+ h1, .h1, .b1{font-size:3.5em;}
+ h2, .h2, .b2{font-size:3em;}
+ h3, .h3, .b3{font-size:2.3em;}
+ h4, .h4, .b4{font-size:1.7em;}
+ h5, .h5n .b5{font-size:1.2em;}
+
+//text align
+.center, .tcenter{text-align:center;} // text center
+.tright{text-align:right} // text right
+.tleft{text-align:left} // text left
+//font style
+.bold{font-weight:bold;}
+
+//font-family
+:lang(ja) {font-family:osaka,'Noto Sans JP', sans-serif  !important}
+:lang(en) {font-family:helvetica neue,sans-serif !important}
+.nanum, .malg{font-family:'Malgun Gothic','나눔고딕','Malgun Gothic','맑은고딕','Sans-serif' !important}
+.gul{font-family:'굴림','Sans-serif';}
+
+//display
+.hide, .none{display:none;}
+.over{display:over;}
+.show, .block{display:block}
+.iblock{display:inline-block}
+.inline{display:inline}
+//한줄로만 표시 ...으로 생략됨
+.only-line{white-space:nowrap;text-overflow:ellipsis;display:inline-block;overflow:hidden;}
+
+//cursor
+.hand, .pointer{cursor:pointer !important}
+
+//float
+.left{float:left;}
+.right{float:right !important}
+
+//button 
+.err_quit{font-weight:bold;border:1px solid #dd4c4c;padding:5px;background:#000;margin:3px;color:#dd4c4c;text-transform:capitalize}
+
+
+//color
+.red-text{color:$red}
+.blue-text{color:#3e99ff}
+.green-text{color:#47c14d}
+.yellow-text{color:#ffde00}
+.orange-text{color:#f18011}
+.deep-text{color:#999}
+
+//position
+.ab{position:absolute;}
+.ab.t0{top:0px;}
+.ab.b0{bottom:0px;}
+.ab.r0{right:0px;}
+.ab.l0{left:0px;}
+
+
+
+
+
+
+
+
+

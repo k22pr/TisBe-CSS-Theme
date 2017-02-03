@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@media all and (min-width:1024px){
+	section{width:1100px;height:auto;min-height:100%;margin:0px auto 0px auto;}
+	
+	@for $i from 1 through 12{
+		//pc Width
+		.pw#{$i}{width:calc(100%  / 12 * #{$i}) !important;float:left;word-break:break-all;float:left;word-break:break-all}
+		//pc Wdith Deep
+		.pwd#{$i}{width:calc((100%  / 12 * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all}
+		
+	}
+	
+	@for $i from 0 through 15{
+		//pc padding
+		.pp#{$i}{padding:#{$i}px}
+		.plp#{$i}{padding-left:#{$i}px}
+		.prp#{$i}{padding-right:#{$i}px}
+		.ptp#{$i}{padding-top:#{$i}px}
+		.pbp#{$i}{padding-bottom:#{$i}px}
+		//pc margin
+		.pm#{$i}{margin:#{$i}px}
+		.plm#{$i}{margin-left:#{$i}px}
+		.prm#{$i}{margin-right:#{$i}px}
+		.ptm#{$i}{margin-top:#{$i}px}
+		.pbm#{$i}{margin-bottom:#{$i}px}
+	}
+	
+	@for $i from 1 through 10{
+		//pc Width Padding
+		.pwp#{$i}{width:calc(100%  / 10 * #{$i}) !important;float:left;word-break:break-all}
+		//pc width Deep Padding
+		.pwdp#{$i}{width:calc((100%  / 10 * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all}
+	}
+	
+	
+	//border
+	.pbdr1{border-bottom:1px solid $border-color}
+	//bottom border
+	.pbbdr1{border-bottom:1px solid $border-color}
+	.ptbdr1{border-top:1px solid $border-color}
+	.prbdr1{border-right:1px solid $border-color}
+	.plbdr1{border-left:1px solid $border-color}
+	//zero border size
+	.pbdr0{border-bottom:none}
+	.pbbdr0{border-bottom:none}
+	.ptbdr0{border-top:none}
+	.prbdr0{border-right:none}
+	.plbdr0{border-left:none}
+	
+	//image size
+	img.pi16{width:16px;height:16px;}
+	img.pi32{width:32px;height:32px;}
+	img.pi64{width:64px;height:64px;}
+	img.pi128{width:128px;height:128px;}
+	
+//text align
+.center, .tcenter{text-align:center;} // text center
+.tright{text-align:right} // text right
+.tleft{text-align:left} // text left
+
+//display
+.hide, .none{display:none;}
+.over{display:over;}
+.show, .block{display:block}
+.iblock{display:inline-block}
+.inline{display:inline}
+}
