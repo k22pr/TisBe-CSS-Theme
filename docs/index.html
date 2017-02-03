@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html charset="UTF-8">
+	<head>
+		<link rel="stylesheet" href="./css/index.css">
+	</head>
+	<body>
+		<header class="w12 p-pt5">
+			<h1 class="wac6 tw8 mw12 center pb10 bc bbdr">SisBe CSS Style Infomation</h1>
+		</header>
+		<section class="p-pt5">
+			<aside class="wd-p2 hide-m"  style="height:100%;">
+				<button class="btn w12 p15 h4">Github 다운로드</button>
+				<div class="info">시스베 에서 제공되는 문서 목록입니다.</div>
+				<ul>
+					<li><b>#</b>그리트 형태</li>
+				</ul>
+			</aside>
+			<div class="wd-p8">
+				<article class="p10">
+					<h3 class="w12">Sisbe 테마 설명</h3>
+					<div class="info blue w12">
+						시스베(Sisbe)테마는 <b>Simple is Best</b>에서 따온 약자이며 이름과는 다르게 생각보다 심플 않습니다...<br>
+						애니아 홈페이지를 만들면서 쌓아온 <s>야매</s>기술 모두 모았습니다.<br>
+						대부분 서버지기의 귀차니즘을 반영하여 약자로 표시합니다.<br>
+						서버지기가 사용하지 않는 태그는 지원하지 않습니다. ex) table <br>
+						동적사이트보다 정적사이트 알맞게 설게되었습니다.<br>
+					</div>
+					<div class="w12 center box white">
+						w<b>2</b> = width(100% / 12* <b>2</b>)<br>
+						p<b>10</b> = padding:<b>10</b>px;<br>
+						m<b>5 </b>= margin:<b>5</b>px;<br>
+					</div>
+					<div class="info w12">
+						대부분 이런 작은 단위들을 조합하여 하나의 모양을 생성합니다.<br>
+					</div>
+					<div class="w12 p5">
+						<button class="left btn blue">btn</button>
+						<div class="wd1 center box white p8">+</div>
+						<div class="left box grey p8">p10 (padding 10px)</div>
+						<div class="wd1 center box white p7">+</div>
+						<div class="left box grey p8">w2 (width 2/12%)</div>
+						<div class="wd1 center box white p8"> = </div>
+						<button class="left btn blue p10 w2">btn</button>
+					</div>
+				</article>
+				<article class="p10 mt10">
+					<h3 class="bbdr mb10">그리드 형태 정의</h3>
+					<h4 class="">그리드는 PC, 모바일, 테블릿 환경 맞게 최적화된 레이아웃을 구성할 수 있게 도와줍니다.</h4>
+						<div class="info">
+							시스베는 기본적으로 12개의 열이 한라인을 구성합니다.<br>
+							그리드 속 그리드를 통해 더 세밀하게 구성할 수도 있습니다.<br>
+							w1~w12로 사용합니다. (Width의 약자입니다.)
+							<code><xmp><div class="w6">content box</div></xmp></code>
+						</div>
+					<div class="w12">
+						<div class="w12 small">w</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w1 box bdr stone center">w1</div>
+					</div>
+					<div class="w12 mt4">
+						<div class="w2 box bdr stone center">w2</div>
+						<div class="w2 box bdr stone center">w2</div>
+						<div class="w2 box bdr stone center">w2</div>
+						<div class="w3 box bdr stone center">w3</div>
+						<div class="w3 box bdr stone center">w3</div>
+					</div>
+					<div class="w12 mt4">
+						<div class="w6 box bdr stone center">w6</div>
+						<div class="w1 box bdr stone center">w1</div>
+						<div class="w2 box bdr stone center">w2</div>
+						<div class="w3 box bdr stone center">w3</div>
+					</div>
+					<div class="w12 mt4">
+						<div class="w12 box bdr stone center">w12</div>
+					</div>
+					<div class="info w12">
+						그리드 사이에 약간의 margin이 필요하다면 wd1~12를 사용해 표현 하실 수 있습니다. (Width Deep의 약자 입니다.)<br>
+						wd1~12 (Width Deep)의 경우 좌우 2px 총 4px의 margin이 생성 됩니다.<br>
+						만약 더 두꺼운 margin을 원하신다면 wdd1~12 (Width Deep Deep)까지 준비되어 있습니다!
+					</div>
+					<div class="w12">
+						<div class="w12 small">wdd</div>
+						<div class="wd1 box bdr stone center">wd1</div>
+						<div class="wd1 box bdr stone center">wd1</div>
+						<div class="wd2 box bdr stone center">wd2</div>
+						<div class="wd2 box bdr stone center">wd2</div>
+						<div class="wd3 box bdr stone center">wd3</div>
+						<div class="wd3 box bdr stone center">wd3</div>
+					</div>
+					<div class="w12 mt4">
+						<div class="wd6 box bdr stone center">wd6</div>
+						<div class="wd6 box bdr stone center">wd6</div>
+					</div>
+					<div class="info w12">
+						한라인에 12개의 그리드가 아닌 10개의 그리드가 필요할 경우 w-p1~12를 통해 구현하실 수 있습니다. (Wdith - Percent 의 약자 입니다.)<br>
+						w-p~12모두 wd-p wdd-p의 형태로 이용하실 수 있습니다.
+					</div>
+					<div class="info red w12">
+						시스베는 12개의 그리드에 최적화 되어 설계 되어있습니다.
+						w와 w-p를 혼용해 사용하는 경우 레이아웃의 설계가 어려워질 수 있습니다.
+					</div>
+					<div class="w12">
+						<div class="w12 small">w-p</div>
+						<div class="w-p1 box bdr stone center">w-p1</div>
+						<div class="w-p2 box bdr stone center">w-p2</div>
+						<div class="w-p3 box bdr stone center">w-p3</div>
+						<div class="w-p4 box bdr stone center">w-p4</div>
+					</div>
+					<div class="w12 mt4">
+						<div class="w-p5 box bdr stone center">w-p5</div>
+						<div class="w-p5 box bdr stone center">w-p5</div>
+					</div>
+					<div class="info w12">
+						PC환경에서만 그리드를 설정할 때는 앞에 p를 붙혀 pw, pwd, pwdd, pw-p로  지정하실 수 있습니다.<br>
+						모바일 환경에서는 <b>Mobile의 m</b>을 붙혀 mw1~12로 그리드를 지정하실 수 있습니다.<br>
+						테블릿 환경에서는 <b>Tablet t</b>를 붙혀 tw1~12로 그리드를 지정하실 수 있습니다.<br>
+						새환경 모두 <kbd class="blue">mw, mwd, mwdd, mw-p</kbd>형태의 그리드를 사용하실 수 있습니다.
+						<code>
+							<xmp><div class="pw6 tw8 mw12">content box</div></xmp>
+							<xmp><div class="wd6 mw12">content box</div></xmp>
+						</code>
+					</div>
+					<div class="w12">
+						<div class="w12 small">pw tw mw</div>
+						<div class="pw1 mw2 box bdr stone center only-line">pw1 mw2 </div>
+						<div class="pw1 mw2 box bdr stone center only-line">pw1 mw2 </div>
+						<div class="pw2 mw4 box bdr stone center only-line">pw2 mw4 </div>
+						<div class="pw2 mw4 box bdr stone center only-line">pw2 mw4 </div>
+						<div class="pw3 mw6 box bdr stone center only-line">pw3 mw6 </div>
+						<div class="pw3 mw6 box bdr stone center only-line">pw3 mw6 </div>
+					</div>
+					<div class="w12 mt10">
+						<div class="w12 small">grid layout example</div>
+						<div class="w12 box bdr grey center mt4">
+							<div class="w12">w12</div>
+							<div class="w8 box bdr grey center">
+							<div class="w12">w8</div>
+								<div class="w6 box bdr grey center">w6</div>
+								<div class="w3 box bdr grey center">w3</div>
+								<div class="w3 box bdr grey center">w3</div>
+								<div class="w3 box bdr grey center">w3</div>
+								<div class="w3 box bdr grey center">w3</div>
+								<div class="w3 box bdr grey center">w3</div>
+								<div class="w3 box bdr grey center">w3</div>
+								<div class="w12 box bdr grey center">w12</div>
+							</div>
+							<div class="w4 box bdr grey center">
+								<div class="w12">w4</div>
+								<div class="w12 box bdr grey center">w12</div>
+								<div class="w12 box bdr grey center">w12</div>
+								<div class="w12 box bdr grey center">w12</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="p10 mt10">
+					<h3 class="w12 bbdr mb10">색상의 종류</h3>
+					<h4 class="w12">미리 정의되어있는 색상을 선택해 사용하실 수 있습니다.</h4>
+					<div class="info w12">
+						
+					</div>
+				</article>
+				<article class="p10 mt10">
+					<div class="w12">
+						<h3 class="bbdr mb10">버튼의 색상 지정</h3>
+						<h4 class="">다양한 형태의 버튼의 양식이 정의되어있습니다.</h4>
+						<div class="info w12">
+							버튼의 예제입니다. class="btn color" 형태로 적용하실 수 있습니다.<br>
+							기본적으로 색상이 배경 글자색이 흰색으로 지정됩니다. 단, 배경의 색이 너무 밝은경우 글자는 검정색으로 변경됩니다.<br>
+							radi2~20 를 통해 border-radius값을 설정할 수 있습니다. (짝수단위만 존재합니다.)<br>
+							<div class="box o oran mt5">radi는 !important가 적용된 속성입니다.</div>
+						</div>
+						<div class="info blue w12">
+							/sass/variable.scss 파일의 default-btn-radius 값을 변경후 컴파일하면 기본 버튼의 radius값을 결정할 수 있습니다.
+						</div>
+						<div class="w12">
+							<button class="wd2 p15 btn">btn (default)</button>
+							<button class="wd2 p15 btn white">btn white</button>
+							<button class="wd2 p15 btn blue">btn blue</button>
+							<button class="wd2 p15 btn red">btn red</button>
+							<button class="wd2 p15 btn oran">btn oran</button>
+							<button class="wd2 p15 btn stone">btn stone</button>
+						</div>
+						<div class="w12 mt4">
+							<button class="wd2 p15 btn green">btn green</button>
+							<button class="wd2 p15 btn sky">btn sky</button>
+							<button class="wd2 p15 btn radi10">btn radi10</button>
+							<button class="wd3 p15 btn blue radi6">btn blue radi6</button>
+							<button class="wd3 p15 btn red radi20">btn red radi20</button>
+						</div>
+						<div class="info mt10 w12">
+							만약 흰배경에 글자에 색상을 넣고 싶을경우 o 를 추가하시면 됩니다.
+						</div>
+						<div class="w12 mt4">
+							<button class="wd2 p15 btn o">btn o (defualt)</button>
+							<button class="wd2 p15 btn o blue">btn o blue</button>
+							<button class="wd2 p15 btn o red">btn o red</button>
+							<button class="wd2 p15 btn o oran">btn o oran</button>
+							<button class="wd2 p15 btn o green">btn o green</button>
+							<button class="wd2 p15 btn o stone">btn o stone</button>
+						</div>
+						<div class="w12 mt4">
+							<button class="wd6 p15 btn o blue radi4">btn o blue radi4</button>
+							<button class="wd6 p15 btn o stone radi4">btn o stone radi4</button>
+						</div>
+					</div>
+			</article>
+		</div>
+		</section>
+			<article class="wac10 p-mt5">
+				<h3>이 테마를 만들게 된 계기...</h3>
+				<div class="info wac10">
+					1.Xamarin을 공부하던 도중 C#은 디컴파일이 너무나도 쉬워서 자체적으로 DB에 접근하는것은 보안성에 안좋다고 생각했습니다.
+					결국 서버에 데이터를 요청하여 앱에서 받는것이 안전하다고 생각해 연동하려는 도중 생각해보니 서버와 클라이언트간 RSA암호화를
+					아직 본서버에 적용하지 않고 로컬서버에서만 테스트하던게 기억났습니다...<br><br>
+					
+					2.로컬서버에서 서버로 업데이트 하려고보니 Git에 올려둔 함수들이 필요해 Include하려고 보니 페이지들이 너무 허전한걸 느꼈습니다.
+					다른 Git들 보면 예제 페이지 들도 만들고 그러던데 딸랑 소스파일 하나만 있으니 너무 적적한거 같아 예제 페이지를 만들었습니다.<br><br>
+					
+					3.대충 예제 페이지를 만들었는데 text input두개에 버튼 하나만 달랑 놓으니 너무 보기 흉해서 만들게 되었습니다..
+				</div>
+			</article>
+	</body>
+</html>

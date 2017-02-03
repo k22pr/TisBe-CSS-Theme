@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import "variable.scss";
+
+
+@each $name,$code in $color{
+	@include keyframes(#{""+$name}-btn-hover){
+		@for $i from 0 through 10{
+			@if ($name != stone){
+				#{$i*10}%{background:-webkit-radial-gradient(circle, lighten($code,3) #{$i*10+"%"}, $code #{$i*10+"%"}, $code 100%)}
+			} @else{}
+		}
+	}
+}
+
+	@include keyframes(btn-o-hover){
+		@for $i from 0 through 10{
+			#{$i*10}%{background:-webkit-radial-gradient(circle, $white #{$i*10+"%"}, $real-white #{$i*10+"%"}, $real-white 100%)}
+		}
+	}
