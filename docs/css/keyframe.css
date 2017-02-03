@@ -90,6 +90,98 @@
     background: -webkit-radial-gradient(circle, #2a2a2a 90%, #222 90%, #222 100%); }
   100% {
     background: -webkit-radial-gradient(circle, #2a2a2a 100%, #222 100%, #222 100%); } }
+@-webkit-keyframes grey-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #909090 0%, #888 0%, #888 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #909090 10%, #888 10%, #888 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #909090 20%, #888 20%, #888 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #909090 30%, #888 30%, #888 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #909090 40%, #888 40%, #888 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #909090 50%, #888 50%, #888 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #909090 60%, #888 60%, #888 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #909090 70%, #888 70%, #888 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #909090 80%, #888 80%, #888 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #909090 90%, #888 90%, #888 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #909090 100%, #888 100%, #888 100%); } }
+@-moz-keyframes grey-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #909090 0%, #888 0%, #888 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #909090 10%, #888 10%, #888 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #909090 20%, #888 20%, #888 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #909090 30%, #888 30%, #888 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #909090 40%, #888 40%, #888 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #909090 50%, #888 50%, #888 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #909090 60%, #888 60%, #888 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #909090 70%, #888 70%, #888 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #909090 80%, #888 80%, #888 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #909090 90%, #888 90%, #888 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #909090 100%, #888 100%, #888 100%); } }
+@-o-keyframes grey-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #909090 0%, #888 0%, #888 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #909090 10%, #888 10%, #888 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #909090 20%, #888 20%, #888 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #909090 30%, #888 30%, #888 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #909090 40%, #888 40%, #888 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #909090 50%, #888 50%, #888 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #909090 60%, #888 60%, #888 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #909090 70%, #888 70%, #888 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #909090 80%, #888 80%, #888 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #909090 90%, #888 90%, #888 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #909090 100%, #888 100%, #888 100%); } }
+@keyframes grey-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #909090 0%, #888 0%, #888 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #909090 10%, #888 10%, #888 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #909090 20%, #888 20%, #888 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #909090 30%, #888 30%, #888 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #909090 40%, #888 40%, #888 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #909090 50%, #888 50%, #888 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #909090 60%, #888 60%, #888 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #909090 70%, #888 70%, #888 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #909090 80%, #888 80%, #888 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #909090 90%, #888 90%, #888 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #909090 100%, #888 100%, #888 100%); } }
 @-webkit-keyframes main-btn-hover {
   0% {
     background: -webkit-radial-gradient(circle, #3a3f42 0%, #33373a 0%, #33373a 100%); }
@@ -737,6 +829,834 @@
     background: -webkit-radial-gradient(circle, white 90%, #f9f9f9 90%, #f9f9f9 100%); }
   100% {
     background: -webkit-radial-gradient(circle, white 100%, #f9f9f9 100%, #f9f9f9 100%); } }
+@-webkit-keyframes c2016se-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 0%, #91a7d0 0%, #91a7d0 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 10%, #91a7d0 10%, #91a7d0 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 20%, #91a7d0 20%, #91a7d0 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 30%, #91a7d0 30%, #91a7d0 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 40%, #91a7d0 40%, #91a7d0 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 50%, #91a7d0 50%, #91a7d0 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 60%, #91a7d0 60%, #91a7d0 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 70%, #91a7d0 70%, #91a7d0 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 80%, #91a7d0 80%, #91a7d0 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 90%, #91a7d0 90%, #91a7d0 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 100%, #91a7d0 100%, #91a7d0 100%); } }
+@-moz-keyframes c2016se-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 0%, #91a7d0 0%, #91a7d0 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 10%, #91a7d0 10%, #91a7d0 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 20%, #91a7d0 20%, #91a7d0 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 30%, #91a7d0 30%, #91a7d0 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 40%, #91a7d0 40%, #91a7d0 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 50%, #91a7d0 50%, #91a7d0 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 60%, #91a7d0 60%, #91a7d0 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 70%, #91a7d0 70%, #91a7d0 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 80%, #91a7d0 80%, #91a7d0 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 90%, #91a7d0 90%, #91a7d0 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 100%, #91a7d0 100%, #91a7d0 100%); } }
+@-o-keyframes c2016se-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 0%, #91a7d0 0%, #91a7d0 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 10%, #91a7d0 10%, #91a7d0 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 20%, #91a7d0 20%, #91a7d0 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 30%, #91a7d0 30%, #91a7d0 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 40%, #91a7d0 40%, #91a7d0 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 50%, #91a7d0 50%, #91a7d0 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 60%, #91a7d0 60%, #91a7d0 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 70%, #91a7d0 70%, #91a7d0 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 80%, #91a7d0 80%, #91a7d0 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 90%, #91a7d0 90%, #91a7d0 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 100%, #91a7d0 100%, #91a7d0 100%); } }
+@keyframes c2016se-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 0%, #91a7d0 0%, #91a7d0 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 10%, #91a7d0 10%, #91a7d0 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 20%, #91a7d0 20%, #91a7d0 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 30%, #91a7d0 30%, #91a7d0 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 40%, #91a7d0 40%, #91a7d0 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 50%, #91a7d0 50%, #91a7d0 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 60%, #91a7d0 60%, #91a7d0 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 70%, #91a7d0 70%, #91a7d0 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 80%, #91a7d0 80%, #91a7d0 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 90%, #91a7d0 90%, #91a7d0 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #9cb0d5 100%, #91a7d0 100%, #91a7d0 100%); } }
+@-webkit-keyframes c2016ro-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 0%, #f6cac9 0%, #f6cac9 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 10%, #f6cac9 10%, #f6cac9 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 20%, #f6cac9 20%, #f6cac9 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 30%, #f6cac9 30%, #f6cac9 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 40%, #f6cac9 40%, #f6cac9 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 50%, #f6cac9 50%, #f6cac9 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 60%, #f6cac9 60%, #f6cac9 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 70%, #f6cac9 70%, #f6cac9 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 80%, #f6cac9 80%, #f6cac9 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 90%, #f6cac9 90%, #f6cac9 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 100%, #f6cac9 100%, #f6cac9 100%); } }
+@-moz-keyframes c2016ro-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 0%, #f6cac9 0%, #f6cac9 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 10%, #f6cac9 10%, #f6cac9 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 20%, #f6cac9 20%, #f6cac9 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 30%, #f6cac9 30%, #f6cac9 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 40%, #f6cac9 40%, #f6cac9 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 50%, #f6cac9 50%, #f6cac9 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 60%, #f6cac9 60%, #f6cac9 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 70%, #f6cac9 70%, #f6cac9 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 80%, #f6cac9 80%, #f6cac9 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 90%, #f6cac9 90%, #f6cac9 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 100%, #f6cac9 100%, #f6cac9 100%); } }
+@-o-keyframes c2016ro-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 0%, #f6cac9 0%, #f6cac9 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 10%, #f6cac9 10%, #f6cac9 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 20%, #f6cac9 20%, #f6cac9 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 30%, #f6cac9 30%, #f6cac9 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 40%, #f6cac9 40%, #f6cac9 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 50%, #f6cac9 50%, #f6cac9 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 60%, #f6cac9 60%, #f6cac9 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 70%, #f6cac9 70%, #f6cac9 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 80%, #f6cac9 80%, #f6cac9 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 90%, #f6cac9 90%, #f6cac9 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 100%, #f6cac9 100%, #f6cac9 100%); } }
+@keyframes c2016ro-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 0%, #f6cac9 0%, #f6cac9 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 10%, #f6cac9 10%, #f6cac9 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 20%, #f6cac9 20%, #f6cac9 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 30%, #f6cac9 30%, #f6cac9 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 40%, #f6cac9 40%, #f6cac9 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 50%, #f6cac9 50%, #f6cac9 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 60%, #f6cac9 60%, #f6cac9 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 70%, #f6cac9 70%, #f6cac9 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 80%, #f6cac9 80%, #f6cac9 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 90%, #f6cac9 90%, #f6cac9 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f8d7d6 100%, #f6cac9 100%, #f6cac9 100%); } }
+@-webkit-keyframes c2017-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #8eb651 0%, #86af49 0%, #86af49 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #8eb651 10%, #86af49 10%, #86af49 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #8eb651 20%, #86af49 20%, #86af49 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #8eb651 30%, #86af49 30%, #86af49 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #8eb651 40%, #86af49 40%, #86af49 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #8eb651 50%, #86af49 50%, #86af49 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #8eb651 60%, #86af49 60%, #86af49 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #8eb651 70%, #86af49 70%, #86af49 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #8eb651 80%, #86af49 80%, #86af49 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #8eb651 90%, #86af49 90%, #86af49 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #8eb651 100%, #86af49 100%, #86af49 100%); } }
+@-moz-keyframes c2017-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #8eb651 0%, #86af49 0%, #86af49 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #8eb651 10%, #86af49 10%, #86af49 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #8eb651 20%, #86af49 20%, #86af49 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #8eb651 30%, #86af49 30%, #86af49 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #8eb651 40%, #86af49 40%, #86af49 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #8eb651 50%, #86af49 50%, #86af49 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #8eb651 60%, #86af49 60%, #86af49 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #8eb651 70%, #86af49 70%, #86af49 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #8eb651 80%, #86af49 80%, #86af49 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #8eb651 90%, #86af49 90%, #86af49 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #8eb651 100%, #86af49 100%, #86af49 100%); } }
+@-o-keyframes c2017-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #8eb651 0%, #86af49 0%, #86af49 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #8eb651 10%, #86af49 10%, #86af49 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #8eb651 20%, #86af49 20%, #86af49 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #8eb651 30%, #86af49 30%, #86af49 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #8eb651 40%, #86af49 40%, #86af49 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #8eb651 50%, #86af49 50%, #86af49 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #8eb651 60%, #86af49 60%, #86af49 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #8eb651 70%, #86af49 70%, #86af49 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #8eb651 80%, #86af49 80%, #86af49 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #8eb651 90%, #86af49 90%, #86af49 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #8eb651 100%, #86af49 100%, #86af49 100%); } }
+@keyframes c2017-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #8eb651 0%, #86af49 0%, #86af49 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #8eb651 10%, #86af49 10%, #86af49 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #8eb651 20%, #86af49 20%, #86af49 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #8eb651 30%, #86af49 30%, #86af49 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #8eb651 40%, #86af49 40%, #86af49 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #8eb651 50%, #86af49 50%, #86af49 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #8eb651 60%, #86af49 60%, #86af49 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #8eb651 70%, #86af49 70%, #86af49 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #8eb651 80%, #86af49 80%, #86af49 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #8eb651 90%, #86af49 90%, #86af49 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #8eb651 100%, #86af49 100%, #86af49 100%); } }
+@-webkit-keyframes perl-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #4d4c55 0%, #46454d 0%, #46454d 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #4d4c55 10%, #46454d 10%, #46454d 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #4d4c55 20%, #46454d 20%, #46454d 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #4d4c55 30%, #46454d 30%, #46454d 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #4d4c55 40%, #46454d 40%, #46454d 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #4d4c55 50%, #46454d 50%, #46454d 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #4d4c55 60%, #46454d 60%, #46454d 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #4d4c55 70%, #46454d 70%, #46454d 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #4d4c55 80%, #46454d 80%, #46454d 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #4d4c55 90%, #46454d 90%, #46454d 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #4d4c55 100%, #46454d 100%, #46454d 100%); } }
+@-moz-keyframes perl-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #4d4c55 0%, #46454d 0%, #46454d 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #4d4c55 10%, #46454d 10%, #46454d 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #4d4c55 20%, #46454d 20%, #46454d 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #4d4c55 30%, #46454d 30%, #46454d 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #4d4c55 40%, #46454d 40%, #46454d 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #4d4c55 50%, #46454d 50%, #46454d 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #4d4c55 60%, #46454d 60%, #46454d 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #4d4c55 70%, #46454d 70%, #46454d 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #4d4c55 80%, #46454d 80%, #46454d 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #4d4c55 90%, #46454d 90%, #46454d 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #4d4c55 100%, #46454d 100%, #46454d 100%); } }
+@-o-keyframes perl-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #4d4c55 0%, #46454d 0%, #46454d 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #4d4c55 10%, #46454d 10%, #46454d 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #4d4c55 20%, #46454d 20%, #46454d 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #4d4c55 30%, #46454d 30%, #46454d 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #4d4c55 40%, #46454d 40%, #46454d 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #4d4c55 50%, #46454d 50%, #46454d 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #4d4c55 60%, #46454d 60%, #46454d 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #4d4c55 70%, #46454d 70%, #46454d 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #4d4c55 80%, #46454d 80%, #46454d 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #4d4c55 90%, #46454d 90%, #46454d 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #4d4c55 100%, #46454d 100%, #46454d 100%); } }
+@keyframes perl-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #4d4c55 0%, #46454d 0%, #46454d 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #4d4c55 10%, #46454d 10%, #46454d 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #4d4c55 20%, #46454d 20%, #46454d 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #4d4c55 30%, #46454d 30%, #46454d 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #4d4c55 40%, #46454d 40%, #46454d 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #4d4c55 50%, #46454d 50%, #46454d 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #4d4c55 60%, #46454d 60%, #46454d 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #4d4c55 70%, #46454d 70%, #46454d 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #4d4c55 80%, #46454d 80%, #46454d 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #4d4c55 90%, #46454d 90%, #46454d 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #4d4c55 100%, #46454d 100%, #46454d 100%); } }
+@-webkit-keyframes clay-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #d28e82 0%, #ce8477 0%, #ce8477 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #d28e82 10%, #ce8477 10%, #ce8477 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #d28e82 20%, #ce8477 20%, #ce8477 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #d28e82 30%, #ce8477 30%, #ce8477 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #d28e82 40%, #ce8477 40%, #ce8477 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #d28e82 50%, #ce8477 50%, #ce8477 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #d28e82 60%, #ce8477 60%, #ce8477 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #d28e82 70%, #ce8477 70%, #ce8477 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #d28e82 80%, #ce8477 80%, #ce8477 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #d28e82 90%, #ce8477 90%, #ce8477 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #d28e82 100%, #ce8477 100%, #ce8477 100%); } }
+@-moz-keyframes clay-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #d28e82 0%, #ce8477 0%, #ce8477 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #d28e82 10%, #ce8477 10%, #ce8477 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #d28e82 20%, #ce8477 20%, #ce8477 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #d28e82 30%, #ce8477 30%, #ce8477 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #d28e82 40%, #ce8477 40%, #ce8477 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #d28e82 50%, #ce8477 50%, #ce8477 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #d28e82 60%, #ce8477 60%, #ce8477 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #d28e82 70%, #ce8477 70%, #ce8477 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #d28e82 80%, #ce8477 80%, #ce8477 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #d28e82 90%, #ce8477 90%, #ce8477 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #d28e82 100%, #ce8477 100%, #ce8477 100%); } }
+@-o-keyframes clay-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #d28e82 0%, #ce8477 0%, #ce8477 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #d28e82 10%, #ce8477 10%, #ce8477 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #d28e82 20%, #ce8477 20%, #ce8477 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #d28e82 30%, #ce8477 30%, #ce8477 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #d28e82 40%, #ce8477 40%, #ce8477 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #d28e82 50%, #ce8477 50%, #ce8477 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #d28e82 60%, #ce8477 60%, #ce8477 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #d28e82 70%, #ce8477 70%, #ce8477 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #d28e82 80%, #ce8477 80%, #ce8477 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #d28e82 90%, #ce8477 90%, #ce8477 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #d28e82 100%, #ce8477 100%, #ce8477 100%); } }
+@keyframes clay-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #d28e82 0%, #ce8477 0%, #ce8477 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #d28e82 10%, #ce8477 10%, #ce8477 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #d28e82 20%, #ce8477 20%, #ce8477 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #d28e82 30%, #ce8477 30%, #ce8477 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #d28e82 40%, #ce8477 40%, #ce8477 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #d28e82 50%, #ce8477 50%, #ce8477 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #d28e82 60%, #ce8477 60%, #ce8477 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #d28e82 70%, #ce8477 70%, #ce8477 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #d28e82 80%, #ce8477 80%, #ce8477 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #d28e82 90%, #ce8477 90%, #ce8477 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #d28e82 100%, #ce8477 100%, #ce8477 100%); } }
+@-webkit-keyframes coral-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f06a7a 0%, #ef5c6e 0%, #ef5c6e 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f06a7a 10%, #ef5c6e 10%, #ef5c6e 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f06a7a 20%, #ef5c6e 20%, #ef5c6e 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f06a7a 30%, #ef5c6e 30%, #ef5c6e 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f06a7a 40%, #ef5c6e 40%, #ef5c6e 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f06a7a 50%, #ef5c6e 50%, #ef5c6e 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f06a7a 60%, #ef5c6e 60%, #ef5c6e 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f06a7a 70%, #ef5c6e 70%, #ef5c6e 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f06a7a 80%, #ef5c6e 80%, #ef5c6e 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f06a7a 90%, #ef5c6e 90%, #ef5c6e 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f06a7a 100%, #ef5c6e 100%, #ef5c6e 100%); } }
+@-moz-keyframes coral-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f06a7a 0%, #ef5c6e 0%, #ef5c6e 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f06a7a 10%, #ef5c6e 10%, #ef5c6e 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f06a7a 20%, #ef5c6e 20%, #ef5c6e 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f06a7a 30%, #ef5c6e 30%, #ef5c6e 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f06a7a 40%, #ef5c6e 40%, #ef5c6e 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f06a7a 50%, #ef5c6e 50%, #ef5c6e 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f06a7a 60%, #ef5c6e 60%, #ef5c6e 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f06a7a 70%, #ef5c6e 70%, #ef5c6e 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f06a7a 80%, #ef5c6e 80%, #ef5c6e 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f06a7a 90%, #ef5c6e 90%, #ef5c6e 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f06a7a 100%, #ef5c6e 100%, #ef5c6e 100%); } }
+@-o-keyframes coral-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f06a7a 0%, #ef5c6e 0%, #ef5c6e 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f06a7a 10%, #ef5c6e 10%, #ef5c6e 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f06a7a 20%, #ef5c6e 20%, #ef5c6e 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f06a7a 30%, #ef5c6e 30%, #ef5c6e 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f06a7a 40%, #ef5c6e 40%, #ef5c6e 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f06a7a 50%, #ef5c6e 50%, #ef5c6e 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f06a7a 60%, #ef5c6e 60%, #ef5c6e 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f06a7a 70%, #ef5c6e 70%, #ef5c6e 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f06a7a 80%, #ef5c6e 80%, #ef5c6e 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f06a7a 90%, #ef5c6e 90%, #ef5c6e 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f06a7a 100%, #ef5c6e 100%, #ef5c6e 100%); } }
+@keyframes coral-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f06a7a 0%, #ef5c6e 0%, #ef5c6e 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f06a7a 10%, #ef5c6e 10%, #ef5c6e 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f06a7a 20%, #ef5c6e 20%, #ef5c6e 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f06a7a 30%, #ef5c6e 30%, #ef5c6e 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f06a7a 40%, #ef5c6e 40%, #ef5c6e 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f06a7a 50%, #ef5c6e 50%, #ef5c6e 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f06a7a 60%, #ef5c6e 60%, #ef5c6e 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f06a7a 70%, #ef5c6e 70%, #ef5c6e 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f06a7a 80%, #ef5c6e 80%, #ef5c6e 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f06a7a 90%, #ef5c6e 90%, #ef5c6e 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f06a7a 100%, #ef5c6e 100%, #ef5c6e 100%); } }
+@-webkit-keyframes silver-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #92a1a1 0%, #8a9a9a 0%, #8a9a9a 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #92a1a1 10%, #8a9a9a 10%, #8a9a9a 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #92a1a1 20%, #8a9a9a 20%, #8a9a9a 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #92a1a1 30%, #8a9a9a 30%, #8a9a9a 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #92a1a1 40%, #8a9a9a 40%, #8a9a9a 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #92a1a1 50%, #8a9a9a 50%, #8a9a9a 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #92a1a1 60%, #8a9a9a 60%, #8a9a9a 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #92a1a1 70%, #8a9a9a 70%, #8a9a9a 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #92a1a1 80%, #8a9a9a 80%, #8a9a9a 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #92a1a1 90%, #8a9a9a 90%, #8a9a9a 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #92a1a1 100%, #8a9a9a 100%, #8a9a9a 100%); } }
+@-moz-keyframes silver-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #92a1a1 0%, #8a9a9a 0%, #8a9a9a 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #92a1a1 10%, #8a9a9a 10%, #8a9a9a 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #92a1a1 20%, #8a9a9a 20%, #8a9a9a 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #92a1a1 30%, #8a9a9a 30%, #8a9a9a 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #92a1a1 40%, #8a9a9a 40%, #8a9a9a 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #92a1a1 50%, #8a9a9a 50%, #8a9a9a 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #92a1a1 60%, #8a9a9a 60%, #8a9a9a 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #92a1a1 70%, #8a9a9a 70%, #8a9a9a 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #92a1a1 80%, #8a9a9a 80%, #8a9a9a 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #92a1a1 90%, #8a9a9a 90%, #8a9a9a 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #92a1a1 100%, #8a9a9a 100%, #8a9a9a 100%); } }
+@-o-keyframes silver-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #92a1a1 0%, #8a9a9a 0%, #8a9a9a 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #92a1a1 10%, #8a9a9a 10%, #8a9a9a 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #92a1a1 20%, #8a9a9a 20%, #8a9a9a 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #92a1a1 30%, #8a9a9a 30%, #8a9a9a 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #92a1a1 40%, #8a9a9a 40%, #8a9a9a 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #92a1a1 50%, #8a9a9a 50%, #8a9a9a 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #92a1a1 60%, #8a9a9a 60%, #8a9a9a 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #92a1a1 70%, #8a9a9a 70%, #8a9a9a 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #92a1a1 80%, #8a9a9a 80%, #8a9a9a 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #92a1a1 90%, #8a9a9a 90%, #8a9a9a 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #92a1a1 100%, #8a9a9a 100%, #8a9a9a 100%); } }
+@keyframes silver-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #92a1a1 0%, #8a9a9a 0%, #8a9a9a 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #92a1a1 10%, #8a9a9a 10%, #8a9a9a 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #92a1a1 20%, #8a9a9a 20%, #8a9a9a 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #92a1a1 30%, #8a9a9a 30%, #8a9a9a 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #92a1a1 40%, #8a9a9a 40%, #8a9a9a 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #92a1a1 50%, #8a9a9a 50%, #8a9a9a 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #92a1a1 60%, #8a9a9a 60%, #8a9a9a 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #92a1a1 70%, #8a9a9a 70%, #8a9a9a 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #92a1a1 80%, #8a9a9a 80%, #8a9a9a 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #92a1a1 90%, #8a9a9a 90%, #8a9a9a 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #92a1a1 100%, #8a9a9a 100%, #8a9a9a 100%); } }
+@-webkit-keyframes wood-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #b59599 0%, #af8c90 0%, #af8c90 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #b59599 10%, #af8c90 10%, #af8c90 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #b59599 20%, #af8c90 20%, #af8c90 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #b59599 30%, #af8c90 30%, #af8c90 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #b59599 40%, #af8c90 40%, #af8c90 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #b59599 50%, #af8c90 50%, #af8c90 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #b59599 60%, #af8c90 60%, #af8c90 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #b59599 70%, #af8c90 70%, #af8c90 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #b59599 80%, #af8c90 80%, #af8c90 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #b59599 90%, #af8c90 90%, #af8c90 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #b59599 100%, #af8c90 100%, #af8c90 100%); } }
+@-moz-keyframes wood-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #b59599 0%, #af8c90 0%, #af8c90 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #b59599 10%, #af8c90 10%, #af8c90 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #b59599 20%, #af8c90 20%, #af8c90 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #b59599 30%, #af8c90 30%, #af8c90 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #b59599 40%, #af8c90 40%, #af8c90 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #b59599 50%, #af8c90 50%, #af8c90 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #b59599 60%, #af8c90 60%, #af8c90 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #b59599 70%, #af8c90 70%, #af8c90 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #b59599 80%, #af8c90 80%, #af8c90 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #b59599 90%, #af8c90 90%, #af8c90 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #b59599 100%, #af8c90 100%, #af8c90 100%); } }
+@-o-keyframes wood-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #b59599 0%, #af8c90 0%, #af8c90 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #b59599 10%, #af8c90 10%, #af8c90 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #b59599 20%, #af8c90 20%, #af8c90 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #b59599 30%, #af8c90 30%, #af8c90 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #b59599 40%, #af8c90 40%, #af8c90 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #b59599 50%, #af8c90 50%, #af8c90 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #b59599 60%, #af8c90 60%, #af8c90 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #b59599 70%, #af8c90 70%, #af8c90 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #b59599 80%, #af8c90 80%, #af8c90 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #b59599 90%, #af8c90 90%, #af8c90 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #b59599 100%, #af8c90 100%, #af8c90 100%); } }
+@keyframes wood-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #b59599 0%, #af8c90 0%, #af8c90 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #b59599 10%, #af8c90 10%, #af8c90 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #b59599 20%, #af8c90 20%, #af8c90 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #b59599 30%, #af8c90 30%, #af8c90 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #b59599 40%, #af8c90 40%, #af8c90 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #b59599 50%, #af8c90 50%, #af8c90 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #b59599 60%, #af8c90 60%, #af8c90 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #b59599 70%, #af8c90 70%, #af8c90 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #b59599 80%, #af8c90 80%, #af8c90 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #b59599 90%, #af8c90 90%, #af8c90 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #b59599 100%, #af8c90 100%, #af8c90 100%); } }
+@-webkit-keyframes cream-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f4e8da 0%, #f0e1ce 0%, #f0e1ce 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f4e8da 10%, #f0e1ce 10%, #f0e1ce 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f4e8da 20%, #f0e1ce 20%, #f0e1ce 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f4e8da 30%, #f0e1ce 30%, #f0e1ce 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f4e8da 40%, #f0e1ce 40%, #f0e1ce 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f4e8da 50%, #f0e1ce 50%, #f0e1ce 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f4e8da 60%, #f0e1ce 60%, #f0e1ce 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f4e8da 70%, #f0e1ce 70%, #f0e1ce 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f4e8da 80%, #f0e1ce 80%, #f0e1ce 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f4e8da 90%, #f0e1ce 90%, #f0e1ce 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f4e8da 100%, #f0e1ce 100%, #f0e1ce 100%); } }
+@-moz-keyframes cream-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f4e8da 0%, #f0e1ce 0%, #f0e1ce 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f4e8da 10%, #f0e1ce 10%, #f0e1ce 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f4e8da 20%, #f0e1ce 20%, #f0e1ce 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f4e8da 30%, #f0e1ce 30%, #f0e1ce 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f4e8da 40%, #f0e1ce 40%, #f0e1ce 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f4e8da 50%, #f0e1ce 50%, #f0e1ce 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f4e8da 60%, #f0e1ce 60%, #f0e1ce 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f4e8da 70%, #f0e1ce 70%, #f0e1ce 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f4e8da 80%, #f0e1ce 80%, #f0e1ce 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f4e8da 90%, #f0e1ce 90%, #f0e1ce 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f4e8da 100%, #f0e1ce 100%, #f0e1ce 100%); } }
+@-o-keyframes cream-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f4e8da 0%, #f0e1ce 0%, #f0e1ce 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f4e8da 10%, #f0e1ce 10%, #f0e1ce 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f4e8da 20%, #f0e1ce 20%, #f0e1ce 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f4e8da 30%, #f0e1ce 30%, #f0e1ce 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f4e8da 40%, #f0e1ce 40%, #f0e1ce 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f4e8da 50%, #f0e1ce 50%, #f0e1ce 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f4e8da 60%, #f0e1ce 60%, #f0e1ce 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f4e8da 70%, #f0e1ce 70%, #f0e1ce 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f4e8da 80%, #f0e1ce 80%, #f0e1ce 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f4e8da 90%, #f0e1ce 90%, #f0e1ce 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f4e8da 100%, #f0e1ce 100%, #f0e1ce 100%); } }
+@keyframes cream-btn-hover {
+  0% {
+    background: -webkit-radial-gradient(circle, #f4e8da 0%, #f0e1ce 0%, #f0e1ce 100%); }
+  10% {
+    background: -webkit-radial-gradient(circle, #f4e8da 10%, #f0e1ce 10%, #f0e1ce 100%); }
+  20% {
+    background: -webkit-radial-gradient(circle, #f4e8da 20%, #f0e1ce 20%, #f0e1ce 100%); }
+  30% {
+    background: -webkit-radial-gradient(circle, #f4e8da 30%, #f0e1ce 30%, #f0e1ce 100%); }
+  40% {
+    background: -webkit-radial-gradient(circle, #f4e8da 40%, #f0e1ce 40%, #f0e1ce 100%); }
+  50% {
+    background: -webkit-radial-gradient(circle, #f4e8da 50%, #f0e1ce 50%, #f0e1ce 100%); }
+  60% {
+    background: -webkit-radial-gradient(circle, #f4e8da 60%, #f0e1ce 60%, #f0e1ce 100%); }
+  70% {
+    background: -webkit-radial-gradient(circle, #f4e8da 70%, #f0e1ce 70%, #f0e1ce 100%); }
+  80% {
+    background: -webkit-radial-gradient(circle, #f4e8da 80%, #f0e1ce 80%, #f0e1ce 100%); }
+  90% {
+    background: -webkit-radial-gradient(circle, #f4e8da 90%, #f0e1ce 90%, #f0e1ce 100%); }
+  100% {
+    background: -webkit-radial-gradient(circle, #f4e8da 100%, #f0e1ce 100%, #f0e1ce 100%); } }
 @-webkit-keyframes btn-o-hover {
   0% {
     background: -webkit-radial-gradient(circle, #f5f5f5 0%, #f9f9f9 0%, #f9f9f9 100%); }

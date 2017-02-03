@@ -29,7 +29,7 @@ body{
 			$set : append(device-set,&);
 		}
 		//Wdith Align Center
-		.wac#{$i}{width:calc(100%  / 12 * #{$i});margin-left:auto;margin-right:auto;
+		.wac#{$i}{width:calc(100%  / 12 * #{$i});margin-left:auto !important;margin-right:auto !important;
 			$set : append(device-set,&);
 		}
 	}
@@ -79,7 +79,7 @@ body{
 	.rbdr{border-right:1px solid $border-color !important}
 	.lbdr{border-left:1px solid $border-color !important}
 	//zero border size
-	.bdr0{border-bottom:none !important}
+	.bdr0{border:none !important}
 	.bbdr0{border-bottom:none !important}
 	.tbdr0{border-top:none !important}
 	.rbdr0{border-right:none !important}
@@ -131,70 +131,78 @@ body{
 .hand, .pointer{cursor:pointer !important}
 
 //float
-.left{float:left;}
-.right{float:right !important}
+.aleft{float:left;}
+.aright{float:right !important}
 
 //button 
 	.btn{transition:$default-ease;cursor:pointer;text-decoration:none;border:none;text-align:center;padding:5px;border:1px solid rgba(0,0,0,0);
 		background:$main;color:rgba(255,255,255,.9);border-radius:$default-btn-radius;
 	}
-	.btn:hover{background:$hover-main;border:1px solid rgba(0,0,0,.1);box-shadow:0px 0px 8px rgba(0,0,0,.1), inset 0px 0px 1px rgba(255,255,255,.3);}
+	.btn:hover{background:$hover-main;border:1px solid rgba(0,0,0,.1);}
 	.btn[disabled], .btn[readonly]{background:$stone !important;border:1px solid rgba(255,255,255,.1);color:#ddd !important;cursor:default;}
 	.btn.white{background:$white;color:rgba(0,0,0,.95);border:1px solid rgba(0,0,0,.1);border-radius:$default-btn-radius;}
 		.btn.white:hover{background:$real-white;box-shadow:none;border:1px solid rgba(0,0,0,.15)}
 	
 	//색상으로 돌리는 each문
 	@each $name, $code in $color{
+		printc-#{""+$name}:after{content:#{"\""+$code+"\""};text-transform: uppercase;}
 		//색상별 버튼
-		.btn.#{""+$name}{background:$code;border-radius:$default-btn-radius;
-			&:hover{@include animation("#{$name}-btn-hover .2s ease 0s")}
+		.btn.#{""+$name}{
+			background:$code;border-radius:$default-btn-radius;
+			&:hover{
+				@include animation("#{$name}-btn-hover .2s ease 0s");background:lighten($code,3);
+				box-shadow:0px 0px 8px rgba(0,0,0,.1), inset 0px 0px 5px rgba(darken($code,10),.3), inset 0px 0px 1px rgba(255,255,255,.3);
+			}
 		}
+		
 		//o-버튼
-		.btn.#{""+$name}.o{border:1px solid $code;color:$code;border-radius:$default-btn-radius;
+		.btn.o.#{""+$name}{border:1px solid $code;color:$code;border-radius:$default-btn-radius;
 			&:hover{@include animation("btn-o-hover .2s ease 0s")}
 		}
 		
-		.box.#{""+$name}{background:$code}
-		.box.o.#{""+$name}{background:lighten($code,35);color:$code;border:1px solid $code;}
+		$vec : (left,right,top,bottom);
+		@for $i from 1 through length($vec){
+			.btn.#{nth($vec,$i)}.#{""+$name}{
+				border:none;border-#{nth($vec,$i)}:5px solid darken($code,15);;
+			}
+			.btn.o.#{nth($vec,$i)}.#{""+$name}{
+				border:none;border-#{nth($vec,$i)}:5px solid $code;color:$code;background:lighten($code,35);
+			}
+		}
 		
+		//box
+		.box.#{""+$name}{background:$code}
+		.box.o.#{""+$name}{background:lighten($code,35);color:darken($code,10);border:1px solid $code;}
+		
+		//background
+		.cbdr.#{""+$name}, .cbdr-#{""+$name}{border:1px solid $code;}
+		.bg.#{""+$name}{background:$code;}
+		kbd.#{""+$name}{background:lighten($code,35);color:darken($code,10);}
+		.info.#{""+$name}{border-left:3px solid $code}
+		.c#{""+$name},.#{""+$name}-text{color:$code}
+		
+		#{""+$name}-text{color:$code;}
 	}
 		
 	.btn.o{background:$real-white;color:$black;border:1px solid $black}
-	.btn.o:hover{background:$real-white;box-shadow:0px 0px 4px $blue-alpha}
+	.btn.o:hover{background:$white;box-shadow:none;}
 	
 //box
 	.err_quit{font-weight:bold;border:1px solid #dd4c4c;padding:5px;background:#000;margin:3px;color:#dd4c4c;text-transform:capitalize;}
-	.box{background:$main;padding:8px 10px;color:$white;border:1px solid rgba(0,0,0,0);}
-	.box.stone{background:$stone;color:$white;}
-		.box.stone.bdr{border:1px solid rgba(0,0,0,.3)}
-	.box.grey{background:$grey;padding:5px 10px;color:$black;}
-	.box.white{background:$real-white;padding:4px 10px;color:$black;border:1px solid rgba(0,0,0,0.1)}
-	.box.blue, .box.sucess{background:$blue;}
-	.box.red, .box.danger{background:map-get($color,red);}
-	.box.oran, .box.warring{background:$oran;}
-	.box.main{background:$main;}
+	.box{background:$main;padding:8px 10px;color:$white;border:1px solid rgba(0,0,0,0);margin:10px 0px 10px;}
+	.box.white{color:$black}
 	
 //$color Background
 .wb{background:$real-white;}
 
 //$color Color
-.rc, .red-text{color:map-get($color,red)}
-.bc, .blue-text{color:$blue}
-.gc, .green-text{color:#47c14d !important}
-.yc, .yellow-text{color:#ffde00 !important}
-.oc, .oran-text{color:$oran !important}
 .dc, .deep-text{color:#999}
 .sc, .small{color:#999;font-size:0.9em;}
 	.small-text{color:#999}
 	
 //background
-.bg.blue{background:$blue}
-.bg.red{background:map-get($color,red)}
-.bg.green{background:$green}
-.bg.oran{background:$oran}
-.bg.white{background:$white}
-.bg.black{background:$black}
-.bg.main{background:$main}
+.bg.white{color:$black;}
+.bg{color:$white;}
 
 //position
 .ab{position:absolute;}
@@ -205,17 +213,13 @@ body{
 
 //text양식
 .info{border-left:3px solid $border-color;padding-left:5px;margin-bottom:10px;padding:10px;margin-top:5px;margi-bottom:5px;background:$real-white;}
-.info.blue{border-left:3px solid $blue;}
-.info.white{border-left:3px solid $white;}
-.info.black{border-left:3px solid $main;}
-.info.red{border-left:3px solid map-get($color,red);}
-.info.oran{border-left:3px solid $oran;}
+.info.white{color:$black}
 
 //strike
 s, strike{color:$grey;}
 
 //code
-xmp{background:$main;padding:10px;color:#e4e7ea;border-left:4px solid $blue;}
+xmp{background:$main;padding:10px;color:#e4e7ea;border-left:4px solid map-get($color,blue);width:100%;overflow:hidden;}
 
 //list
 ul{width:100%;
@@ -227,11 +231,6 @@ ul{width:100%;
 
 //kbd
 kbd{background:$border-color;color:$nine;padding:1px 5px 2px 5px;border-radius:5px;}
-kbd.blue{color:$blue;background:$blue-alpha}
-kbd.red{color:map-get($color,red);background:map-get($color,red)-alpha}
-kbd.oran{color:$oran;background:$oran-alpha}
-kbd.green{color:$green;background:$green-alpha}
-kbd.sky{color:$sky;background:$sky-alpha}
 
 //input
 input[type="text"], input[type="password"], input[type="email"], input[type="number"]{padding:8px;border:1px solid $border-color;font-size:1em;;}

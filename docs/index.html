@@ -2,6 +2,7 @@
 <html charset="UTF-8">
 	<head>
 		<link rel="stylesheet" href="./css/index.css">
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	</head>
 	<body>
 		<header class="w12 p-pt5">
@@ -36,15 +37,15 @@
 						대부분 이런 작은 단위들을 조합하여 하나의 모양을 생성합니다.<br>
 					</div>
 					<div class="w12 p5">
-						<button class="left btn blue">btn</button>
+						<button class="aleft btn blue mt8">btn</button>
 						<div class="wd1 center box white p8">+</div>
-						<div class="left box grey p8">p10</div>
+						<div class="aleft box grey p8">p10</div>
 						<div class="wd1 center box white p7">+</div>
-						<div class="left box grey p8">w4</div>
-						<div class="wd1 center box white p8"> = </div>
-						<div class="left box grey h4">h4</div>
-						<div class="wd1 center box white p8"> = </div>
-						<button class="left btn blue p10 w4 h4">class="btn p10 w2 h4"</button>
+						<div class="aleft box grey p8">w4</div>
+						<div class="wd1 center box white p8">+</div>
+						<div class="aleft box grey h4">h4</div>
+						<div class="wd1 center box white p8">=</div>
+						<button class="btn blue p10 w4 h4">class="btn p10 w2 h4"</button>
 					</div>
 				</article>
 				<article class="p10 mt10">
@@ -93,7 +94,7 @@
 						만약 더 두꺼운 margin을 원하신다면 wdd1~12 (Width Deep Deep)까지 준비되어 있습니다!
 					</div>
 					<div class="w12">
-						<div class="w12 small">wdd</div>
+						<div class="w12 small">wd</div>
 						<div class="wd1 box bdr stone center">wd1</div>
 						<div class="wd1 box bdr stone center">wd1</div>
 						<div class="wd2 box bdr stone center">wd2</div>
@@ -104,6 +105,18 @@
 					<div class="w12 mt4">
 						<div class="wd6 box bdr stone center">wd6</div>
 						<div class="wd6 box bdr stone center">wd6</div>
+					</div>
+					<div class="info w12">
+						wac1~12은 한라인에 단하나의 grid만 필요할때 사용합니다. (Width Align Center)<br>
+						한줄에 하나의 그리드만 형성되면 화면 가운데에 위치하게 됩니다.<br>
+						여러개의 가운데에 배치하고 싶으시다면 wac속에 grid를 생성하면 됩니다.
+					</div>
+					<div class="w12 mt4">
+						<div class="wac1 box bdr stone center">wac1</div>
+						<div class="wac3 box bdr stone center">wac3</div>
+						<div class="wac5 box bdr stone center">wac5</div>
+						<div class="wac8 box bdr stone center">wac8</div>
+						<div class="wac12 box bdr stone center">wac12</div>
 					</div>
 					<div class="info w12">
 						한라인에 12개의 그리드가 아닌 10개의 그리드가 필요할 경우 w-p1~12를 통해 구현하실 수 있습니다. (Wdith - Percent 의 약자 입니다.)<br>
@@ -170,16 +183,62 @@
 				<article class="p10 mt10">
 					<h3 class="w12 bbdr mb10">색상의 종류</h3>
 					<h4 class="w12">미리 정의되어있는 색상을 선택해 사용하실 수 있습니다.</h4>
+					<div class="w12 mt10 print-main">
+						<div class="info w12">테마에 기본이 되는 색들 입니다.</div>
+						<script type="text/javascript">
+							main_color = Array("black","grey","white","main","stone","blue","sky","red","oran","green");
+							for(var i in main_color) {
+								$("div.print-main").append("<div class=\"wd3 p5 bg "+main_color[i]+" mt4\">"+main_color[i]+" <printc-"+main_color[i]+"></div>");
+							};
+						</script>
+					</div>
+					<div class="w12 mt10 print-adven">
+						<div class="info w12">시스베에 존재하는 고급색상입니다. 플렛/파스텔톤의 색상들이 있습니다.<br>이후에 계속 추가됩니다.</div>
+						<div class="w12 small">c201xx 형식의 색상은 <a href="http://www.pantone.com/pages/pantone/index.aspx" target="_black">pantone</a>이 선정한 해당년도의 대표색상입니다.</div>
+						<script type="text/javascript">
+							color = Array("c2016se","c2016ro","c2017","perl","clay","coral","silver","wood","cream");
+							for(var i in color){
+								$("div.print-adven").append("<div class=\"wd3 p5 bg "+color[i]+" mt4\">"+color[i]+" <printc-"+color[i]+"></div>");
+							}
+						</script>
+					</div>
+					<div class="info w12">위에 존재하는 모든 색상은 아래 나열된 지정색상에서 사용하실 수 있습니다.</div>
+					<code><xmp><printc-{color}>을 작성하시면 해당 색상의 HEX값을 출력합니다. ex) <printc-blue></xmp></code>
+					<h4 class="w12">기본적으로 색상이 사용되는 부분</h4>
 					<div class="info w12">
-						
+						폰트 색상변경 <b>c{color}</b> or <b>{color}-text</b> ex) <span class="small">cblue, cred, blue-text, red-text</span>
+						<div class="box w12">
+							<div class="w6 tright pr10">&ltspan class="red-text"&gt IM RED&lt/span&gt</div><div class="w6 red-text">IM RED</div>
+							<div class="w6 tright pr10">&ltspan class="blue-text"&gt IM BLUE&lt/span&gt</div><div class="w6 blue-text">IM BLUE</div>
+							<div class="w6 tright pr10">&ltspan class="cclay"&gt IM CLAY&lt/span&gt</div><div class="w6 cclay">IM CLAY</div>
+							<div class="w6 tright pr10">&ltspan class="cc2017"&gt IM C2017&lt/span&gt</div><div class="w6 cc2017">IM C2017</div>
+						</div>
+					</div>	
+					<div class="info w12">
+						배경 색상변경 <b>bg {color}</b> ex) <span class="small">bg blue, bg red</span>
+						<div class="box w12">
+							<div class="w6 tright pr5">&ltspan class="bg red"&gt IM RED&lt/span&gt </div><div class="w6 bg red pl5">IM RED</div>
+							<div class="w6 tright pr5">&ltspan class="bg blue"&gt IM BLUE&lt/span&gt </div><div class="w6 bg blue pl5">IM BLUE</div>
+							<div class="w6 tright pr5">&ltspan class="bg white"&gt IM WHITE&lt/span&gt </div><div class="w6 bg white pl5">IM WHITE</div>
+							<div class="w6 tright pr5">&ltspan class="bg oran"&gt IM ORAN&lt/span&gt </div><div class="w6 bg oran pl5">IM ORAN</div>
+						</div>
+					</div>
+					<div class="info w12">
+						테두리 색상변경 <b>cbdr {color}</b> or <b>cbdr-{color}</b> ex) <span class="small">cbdr blue, cbdr-blue</span>
+						<div class="box w12">
+							<div class="w6 tright pr5 only-line">&ltspan class="cbdr red"&gt IM RED&lt/span&gt </div><div class="w6 cbdr red pl5">IM RED</div>
+							<div class="w6 tright pr5 mt5 only-line">&ltspan class="cbdr blue"&gt IM BLUE&lt/span&gt </div><div class="w6 cbdr blue pl5 mt5">IM BLUE</div>
+							<div class="w6 tright pr5 mt5 only-line">&ltspan class="cbdr red oran-text"&gt IM RED ORAN&lt/span&gt </div><div class="w6 cbdr red coran pl5 mt5">IM RED ORAN</div>
+							<div class="w6 tright pr5 mt5 only-line">&ltspan class="btn cbdr-green silver oran-text"&gt IM MIXER&lt/span&gt </div><div class="w6 btn cbdr-green  silver oran-text pl5 mt5">IM MIXER</div>
 					</div>
 				</article>
+				
 				<article class="p10 mt10">
 					<div class="w12">
 						<h3 class="bbdr mb10">버튼의 색상 지정</h3>
 						<h4 class="">다양한 형태의 버튼의 양식이 정의되어있습니다.</h4>
 						<div class="info w12">
-							버튼의 예제입니다. class="btn color" 형태로 적용하실 수 있습니다.<br>
+							버튼의 예제입니다. class="btn {color}" 형태로 적용하실 수 있습니다.<br>
 							기본적으로 색상이 배경 글자색이 흰색으로 지정됩니다. 단, 배경의 색이 너무 밝은경우 글자는 검정색으로 변경됩니다.<br>
 							radi2~20 를 통해 border-radius값을 설정할 수 있습니다. (짝수단위만 존재합니다.)<br>
 							<div class="box o oran mt5">radi는 !important가 적용된 속성입니다.</div>
@@ -214,25 +273,30 @@
 							<button class="wd2 p15 btn o stone">btn o stone</button>
 						</div>
 						<div class="w12 mt4">
-							<button class="wd6 p15 btn o blue radi4">btn o blue radi4</button>
-							<button class="wd6 p15 btn o stone radi4">btn o stone radi4</button>
+							<button class="wd6 p15 btn o blue radi10">btn o blue radi10</button>
+							<button class="wd3 p15 btn o coral radi4">btn o coral radi4</button>
+							<button class="wd3 p15 btn o wood bdr0">btn o wood bdr0</button>
+						</div>
+						<div class="info w12">
+							<kbd class="green">left, top, bottom, right</kbd>으로 버튼의 특정 방향을 강조해 나타낼 수 있습니다.
+						</div>
+						<div class="w12 mt4">
+							<button class="wd2 p15 btn left blue">btn o left blue</button>
+							<button class="wd2 p15 btn top red">btn o top red</button>
+							<button class="wd2 p15 btn bottom blue">btn o down blue</button>
+							<button class="wd2 p15 btn right blue">btn o right blue</button>
+							<button class="wd4 p15 btn left clay radi8">btn o clay left right radi8</button>
+						</div>
+						<div class="w12 mt4">
+							<button class="wd2 p15 btn o left blue">btn o left blue</button>
+							<button class="wd2 p15 btn o top red">btn o top red</button>
+							<button class="wd2 p15 btn o bottom blue">btn o down blue</button>
+							<button class="wd2 p15 btn o right blue">btn o right blue</button>
+							<button class="wd4 p15 btn o left silver radi8">btn o sliver left right radi8</button>
 						</div>
 					</div>
 			</article>
 		</div>
 		</section>
-			<article class="wac10 p-mt5">
-				<h3>이 테마를 만들게 된 계기...</h3>
-				<div class="info wac10">
-					1.Xamarin을 공부하던 도중 C#은 디컴파일이 너무나도 쉬워서 자체적으로 DB에 접근하는것은 보안성에 안좋다고 생각했습니다.
-					결국 서버에 데이터를 요청하여 앱에서 받는것이 안전하다고 생각해 연동하려는 도중 생각해보니 서버와 클라이언트간 RSA암호화를
-					아직 본서버에 적용하지 않고 로컬서버에서만 테스트하던게 기억났습니다...<br><br>
-					
-					2.로컬서버에서 서버로 업데이트 하려고보니 Git에 올려둔 함수들이 필요해 Include하려고 보니 페이지들이 너무 허전한걸 느꼈습니다.
-					다른 Git들 보면 예제 페이지 들도 만들고 그러던데 딸랑 소스파일 하나만 있으니 너무 적적한거 같아 예제 페이지를 만들었습니다.<br><br>
-					
-					3.대충 예제 페이지를 만들었는데 text input두개에 버튼 하나만 달랑 놓으니 너무 보기 흉해서 만들게 되었습니다..
-				</div>
-			</article>
 	</body>
 </html>

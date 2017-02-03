@@ -17,27 +17,12 @@ $main : #33373a;
 	$hover-main : #404446;
 
 //color
-$color : (black : $black, main : $main, blue : #3a9cfd, red : #E35959, sky : #1bb2f9, oran : #f9ac44, green : #47c14d, stone : #aaa, white : $real-white);
+$color : (black : $black, grey : #888, main : $main, blue : #3a9cfd, red : #E35959, sky : #1bb2f9, oran : #f9ac44, green : #47c14d, stone : #aaa, white : $real-white, 
+	c2016se : #91a7d0, c2016ro : #f6cac9, c2017 : #86af49, perl : #46454d, clay : #ce8477, coral : #ef5c6e, silver : #8a9a9a, wood : #af8c90, cream : #f0e1ce
+);
 $hover :(black : #333, main : #404446, blue : #42a1ff, red : #eb6666, sky : #29bbff, oran : #ffb34d, green : #4dc553, stone : #aaa, white : $white);
 $alpha :(black : rgba(25,5,25,.2), main : rgba(51,55,8,.2), blue : rgba(58,156,253,.2), red : rgba(227,89,89,.2), sky : rgba(32,184,255,.2), oran : rgba(249,172,68,.2), green : rgba(71,193,77,.2), stone : #aaa, white : rgba(245,245,245,.2));
 
-$blue : #3a9cfd;
-	$hover-blue : #42a1ff;
-	$blue-alpha : rgba(58,156,253,0.2);
-$red : #E35959;
-	$hover-red : #eb6666;
-	$deep-red : #e64242;
-	$red-alpha : rgba(227,89,89,0.2);
-$sky : #20b8ff;
-	$hover-sky : #26baff;
-	$sky-alpha : rgba(32,184,255,0.2);
-$oran : #f9ac44;
-	$hover-oran : #ffb34d;
-	$deep-oran : #e68d00;
-	$oran-alpha : rgba(249,172,68,0.2);
-$green : #47c14d;
-	$hover-green : #4dc553;
-	$green-alpha : rgba(71,193,77,0.2);
 $stone : #aaa;
 	
 $nine : #999;

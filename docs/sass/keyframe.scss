@@ -6,7 +6,7 @@
 	@include keyframes(#{""+$name}-btn-hover){
 		@for $i from 0 through 10{
 			@if ($name != stone){
-				#{$i*10}%{background:-webkit-radial-gradient(circle, lighten($code,3) #{$i*10+"%"}, $code #{$i*10+"%"}, $code 100%)}
+				#{$i*10}%{background:-webkit-radial-gradient(circle, lighten($code,3) #{$i*10+"%"}, $code #{$i*10+"%"}, $code 100%);}
 			} @else{}
 		}
 	}
