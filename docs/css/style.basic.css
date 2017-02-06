@@ -667,6 +667,9 @@ html .mt15 {
 html .mb15 {
   margin-bottom: 15px !important; }
 
+.radi0 {
+  border-radius: 0px !important; }
+
 .radi2 {
   border-radius: 2px !important; }
 
@@ -1167,11 +1170,11 @@ kbd.black {
 .info.black {
   border-left: 3px solid #222; }
 
-.cblack, .black-text {
+.tblack, .black-text {
   color: #222; }
 
-text-black {
-  color: #222; }
+.text-black {
+  color: #222 !important; }
 
 .bgl1-black {
   background: #2c2c2c !important; }
@@ -1318,11 +1321,11 @@ kbd.grey {
 .info.grey {
   border-left: 3px solid #888; }
 
-.cgrey, .grey-text {
+.tgrey, .grey-text {
   color: #888; }
 
-text-grey {
-  color: #888; }
+.text-grey {
+  color: #888 !important; }
 
 .bgl1-grey {
   background: #929292 !important; }
@@ -1469,11 +1472,11 @@ kbd.main {
 .info.main {
   border-left: 3px solid #33373a; }
 
-.cmain, .main-text {
+.tmain, .main-text {
   color: #33373a; }
 
-text-main {
-  color: #33373a; }
+.text-main {
+  color: #33373a !important; }
 
 .bgl1-main {
   background: #3d4145 !important; }
@@ -1620,11 +1623,11 @@ kbd.blue {
 .info.blue {
   border-left: 3px solid #3a9cfd; }
 
-.cblue, .blue-text {
+.tblue, .blue-text {
   color: #3a9cfd; }
 
-text-blue {
-  color: #3a9cfd; }
+.text-blue {
+  color: #3a9cfd !important; }
 
 .bgl1-blue {
   background: #4ea6fd !important; }
@@ -1771,11 +1774,11 @@ kbd.red {
 .info.red {
   border-left: 3px solid #E35959; }
 
-.cred, .red-text {
+.tred, .red-text {
   color: #E35959; }
 
-text-red {
-  color: #E35959; }
+.text-red {
+  color: #E35959 !important; }
 
 .bgl1-red {
   background: #e66a6a !important; }
@@ -1922,11 +1925,11 @@ kbd.sky {
 .info.sky {
   border-left: 3px solid #1bb2f9; }
 
-.csky, .sky-text {
+.tsky, .sky-text {
   color: #1bb2f9; }
 
-text-sky {
-  color: #1bb2f9; }
+.text-sky {
+  color: #1bb2f9 !important; }
 
 .bgl1-sky {
   background: #2fb9fa !important; }
@@ -2073,11 +2076,11 @@ kbd.oran {
 .info.oran {
   border-left: 3px solid #f9ac44; }
 
-.coran, .oran-text {
+.toran, .oran-text {
   color: #f9ac44; }
 
-text-oran {
-  color: #f9ac44; }
+.text-oran {
+  color: #f9ac44 !important; }
 
 .bgl1-oran {
   background: #fab558 !important; }
@@ -2224,11 +2227,11 @@ kbd.green {
 .info.green {
   border-left: 3px solid #47c14d; }
 
-.cgreen, .green-text {
+.tgreen, .green-text {
   color: #47c14d; }
 
-text-green {
-  color: #47c14d; }
+.text-green {
+  color: #47c14d !important; }
 
 .bgl1-green {
   background: #56c65c !important; }
@@ -2375,11 +2378,11 @@ kbd.stone {
 .info.stone {
   border-left: 3px solid #aaa; }
 
-.cstone, .stone-text {
+.tstone, .stone-text {
   color: #aaa; }
 
-text-stone {
-  color: #aaa; }
+.text-stone {
+  color: #aaa !important; }
 
 .bgl1-stone {
   background: #b4b4b4 !important; }
@@ -2526,11 +2529,11 @@ kbd.white {
 .info.white {
   border-left: 3px solid #f9f9f9; }
 
-.cwhite, .white-text {
+.twhite, .white-text {
   color: #f9f9f9; }
 
-text-white {
-  color: #f9f9f9; }
+.text-white {
+  color: #f9f9f9 !important; }
 
 .bgl1-white {
   background: white !important; }
@@ -2677,11 +2680,11 @@ kbd.c2016se {
 .info.c2016se {
   border-left: 3px solid #91a7d0; }
 
-.cc2016se, .c2016se-text {
+.tc2016se, .c2016se-text {
   color: #91a7d0; }
 
-text-c2016se {
-  color: #91a7d0; }
+.text-c2016se {
+  color: #91a7d0 !important; }
 
 .bgl1-c2016se {
   background: #9fb2d6 !important; }
@@ -2828,11 +2831,11 @@ kbd.c2016ro {
 .info.c2016ro {
   border-left: 3px solid #f6cac9; }
 
-.cc2016ro, .c2016ro-text {
+.tc2016ro, .c2016ro-text {
   color: #f6cac9; }
 
-text-c2016ro {
-  color: #f6cac9; }
+.text-c2016ro {
+  color: #f6cac9 !important; }
 
 .bgl1-c2016ro {
   background: #f9dbda !important; }
@@ -2979,11 +2982,11 @@ kbd.c2017 {
 .info.c2017 {
   border-left: 3px solid #86af49; }
 
-.cc2017, .c2017-text {
+.tc2017, .c2017-text {
   color: #86af49; }
 
-text-c2017 {
-  color: #86af49; }
+.text-c2017 {
+  color: #86af49 !important; }
 
 .bgl1-c2017 {
   background: #90b855 !important; }
@@ -3130,11 +3133,11 @@ kbd.perl {
 .info.perl {
   border-left: 3px solid #46454d; }
 
-.cperl, .perl-text {
+.tperl, .perl-text {
   color: #46454d; }
 
-text-perl {
-  color: #46454d; }
+.text-perl {
+  color: #46454d !important; }
 
 .bgl1-perl {
   background: #504f58 !important; }
@@ -3281,11 +3284,11 @@ kbd.clay {
 .info.clay {
   border-left: 3px solid #ce8477; }
 
-.cclay, .clay-text {
+.tclay, .clay-text {
   color: #ce8477; }
 
-text-clay {
-  color: #ce8477; }
+.text-clay {
+  color: #ce8477 !important; }
 
 .bgl1-clay {
   background: #d39286 !important; }
@@ -3432,11 +3435,11 @@ kbd.coral {
 .info.coral {
   border-left: 3px solid #ef5c6e; }
 
-.ccoral, .coral-text {
+.tcoral, .coral-text {
   color: #ef5c6e; }
 
-text-coral {
-  color: #ef5c6e; }
+.text-coral {
+  color: #ef5c6e !important; }
 
 .bgl1-coral {
   background: #f16f7f !important; }
@@ -3583,11 +3586,11 @@ kbd.silver {
 .info.silver {
   border-left: 3px solid #8a9a9a; }
 
-.csilver, .silver-text {
+.tsilver, .silver-text {
   color: #8a9a9a; }
 
-text-silver {
-  color: #8a9a9a; }
+.text-silver {
+  color: #8a9a9a !important; }
 
 .bgl1-silver {
   background: #95a3a3 !important; }
@@ -3734,11 +3737,11 @@ kbd.wood {
 .info.wood {
   border-left: 3px solid #af8c90; }
 
-.cwood, .wood-text {
+.twood, .wood-text {
   color: #af8c90; }
 
-text-wood {
-  color: #af8c90; }
+.text-wood {
+  color: #af8c90 !important; }
 
 .bgl1-wood {
   background: #b7989c !important; }
@@ -3885,11 +3888,11 @@ kbd.cream {
 .info.cream {
   border-left: 3px solid #f0e1ce; }
 
-.ccream, .cream-text {
+.tcream, .cream-text {
   color: #f0e1ce; }
 
-text-cream {
-  color: #f0e1ce; }
+.text-cream {
+  color: #f0e1ce !important; }
 
 .bgl1-cream {
   background: #f5ebde !important; }

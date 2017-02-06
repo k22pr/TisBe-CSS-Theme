@@ -52,7 +52,7 @@ body{
 			.mb#{$i}{margin-bottom:#{$i}px !important}
 		}
 	}
-	@for $i from 1 through 10{
+	@for $i from 0 through 10{
 		.radi#{$i*2}{border-radius:#{$i*2}px !important}
 	}
 	.p-pt3{padding-top:3% !important}
@@ -181,9 +181,9 @@ body{
 		.bg-#{""+$name}{background:$code !important;}
 		kbd.#{""+$name}{background:lighten($code,35);color:darken($code,10);}
 		.info.#{""+$name}{border-left:3px solid $code}
-		.c#{""+$name},.#{""+$name}-text{color:$code}
+		.t#{""+$name},.#{""+$name}-text{color:$code}
 		
-		text-#{""+$name}{color:$code;}
+		.text-#{""+$name}{color:$code !important;}
 		
 		@for $i from 1 through 9{
 			.bgl#{$i}-#{""+$name}{background:lighten($code,$i*4) !important;}
