@@ -1,1 +1,57 @@
 @charset "utf-8";
+
+
+@for $i from 1 through 12{
+		//Width
+		.pw#{$i}{width:calc(100%  / 12 * #{$i}) !important;float:left;word-break:break-all;
+			$set : append(device-set,&);
+		}
+		
+		//Wdith Deep
+		.pwd#{$i}{width:calc((100%  / 12 * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all;
+			$set : append(device-set,&);
+		}
+		.pwdd#{$i}{width:calc((100%  / 12 * #{$i}) - 8px) !important;margin-left:4px;margin-right:4px;float:left;word-break:break-all;
+			$set : append(device-set,&);
+		}
+		//Wdith Align Center
+		.pwac#{$i}{width:calc(100%  / 12 * #{$i});margin-left:auto !important;margin-right:auto !important;
+			$set : append(device-set,&);
+		}
+	}
+	//Wdith Align Center Auto
+	.pwaca{width:auto;margin-lkeft:auto;margin-right:auto;}
+	
+	@for $i from 0 through 15{
+		//Padding
+		html{
+			.pp#{$i}{padding:#{$i}px !important}
+			.ppl#{$i}{padding-left:#{$i}px !important}
+			.ppr#{$i}{padding-right:#{$i}px !important}
+			.ppt#{$i}{padding-top:#{$i}px !important}
+			.ppb#{$i}{padding-bottom:#{$i}px !important}
+			//Margin
+			.pm#{$i}{margin:#{$i}px !important}
+			.pml#{$i}{margin-left:#{$i}px !important}
+			.pmr#{$i}{margin-right:#{$i}px !important}
+			.pmt#{$i}{margin-top:#{$i}px !important}
+			.pmb#{$i}{margin-bottom:#{$i}px !important}
+		}
+	}
+	@for $i from 1 through 10{
+		.pradi#{$i*2}{border-radius:#{$i*2}px !important}
+	}
+	.pp-pt3{padding-top:3% !important}
+	.pp-pt5{padding-top:5% !important}
+	.pp-pt10{padding-top:10% !important}
+	.pp-mt3{margin-top:3% !important}
+	.pp-mt5{margin-top:5% !important}
+	.pp-mt10{margin-top:10% !important}
+	
+	@for $i from 1 through 10{
+		//Width Padding
+		.pw-p#{$i}{width:calc(10% * #{$i}) !important;float:left;word-break:break-all}
+		//width Deep Padding
+		.pwd-p#{$i}{width:calc((10% * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all}
+		.pwdd-p#{$i}{width:calc((10% * #{$i}) - 8px) !important;margin-left:4px;margin-right:4px;float:left;word-break:break-all}
+	}

@@ -96,11 +96,12 @@ body{
 //font size & highlight
  .h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5{line-height:1.5;margin-top:0px;margin-bottom:0px;}
  h1,h2,h3,.h1,.h2,.h3{padding:10px;padding-bottom:5px;margin-bottom:10px;border-bottom:1px solid $border-color}
- h4,h5,.h4,.h5{padding:5px;padding-bottom:5px;margin-bottom:5px;border-bottom:1px solid $border-color}
- h1, .h1, .b1{font-size:3em;}
- h2, .h2, .b2{font-size:2.3em;}
- h3, .h3, .b3{font-size:1.9em;}
- h4, .h4, .b4{font-size:1.5em;}
+ h4, h5, .h4, .h5{padding:5px;padding-bottom:5px;margin-bottom:5px;border-bottom:1px solid $border-color}
+ .b1, .b2, .b3, .b4, .b5{padding:5px 0px;}
+ h1, .h1, .b1{font-size:2.5em;}
+ h2, .h2, .b2{font-size:2.1em;}
+ h3, .h3, .b3{font-size:1.8em;}
+ h4, .h4, .b4{font-size:1.4em;}
  h5, .h5n .b5{font-size:1.2em;}
 
 //text align
@@ -177,11 +178,18 @@ body{
 		//background
 		.cbdr.#{""+$name}, .cbdr-#{""+$name}{border:1px solid $code;}
 		.bg.#{""+$name}{background:$code;}
+		.bg-#{""+$name}{background:$code !important;}
 		kbd.#{""+$name}{background:lighten($code,35);color:darken($code,10);}
 		.info.#{""+$name}{border-left:3px solid $code}
 		.c#{""+$name},.#{""+$name}-text{color:$code}
 		
-		#{""+$name}-text{color:$code;}
+		text-#{""+$name}{color:$code;}
+		
+		@for $i from 1 through 9{
+			.bgl#{$i}-#{""+$name}{background:lighten($code,$i*4) !important;}
+			.bgd#{$i}-#{""+$name}{background:darken($code,$i*4) !important;}
+			
+		}
 	}
 		
 	.btn.o{background:$real-white;color:$black;border:1px solid $black}
@@ -189,7 +197,7 @@ body{
 	
 //box
 	.err_quit{font-weight:bold;border:1px solid #dd4c4c;padding:5px;background:#000;margin:3px;color:#dd4c4c;text-transform:capitalize;}
-	.box{background:$main;padding:8px 10px;color:$white;border:1px solid rgba(0,0,0,0);margin:10px 0px 10px;}
+	.box{background:$main;padding:8px 10px;color:$white;border:1px solid rgba(0,0,0,0);margin-top:5px;margin-bottom:5px;}
 	.box.white{color:$black}
 	
 //$color Background
@@ -201,7 +209,7 @@ body{
 	.small-text{color:#999}
 	
 //background
-.bg.white{color:$black;}
+.bg.white, .bg-white{color:$black;}
 .bg{color:$white;}
 
 //position

@@ -6,12 +6,12 @@
 	</head>
 	<body>
 		<header class="w12 p-pt5">
-			<h1 class="wac6 tw8 mw12 center pb10 bc bbdr">SisBe CSS Style Infomation</h1>
+			<h1 class="wac6 tw8 mw12 center pb10 bc bbdr">TisBe CSS Style Infomation</h1>
 		</header>
 		<section class="p-pt5">
 			<aside class="wd-p2 hide-m"  style="height:100%;">
 				<button class="btn w12 p15 h4">Github 다운로드</button>
-				<div class="info">시스베 에서 제공되는 문서 목록입니다.</div>
+				<div class="info">티스베 에서 제공되는 문서 목록입니다.</div>
 				<ul>
 					<li><b>#</b>그리트 형태</li>
 				</ul>
@@ -20,9 +20,9 @@
 				<article class="p10">
 					<div class="box o red mt10">사용이 불가능합니다. 아직 완성되지 않은 테마입니다.</div>
 					<div class="box o red mt10">현재 반응형은 제작되지 않았으며 추가중에 있습니다. 모든 디바이스에서 똑같이 나타납니다.</div>
-					<h3 class="w12">Sisbe 테마 설명</h3>
+					<h3 class="w12">Tisbe 테마 설명</h3>
 					<div class="info blue w12">
-						시스베(Sisbe)테마는 <b>Simple is Best</b>에서 따온 약자이며 이름과는 다르게 생각보다 심플 않습니다...<br>
+						티스베(Tisbe)테마는 <b>Simple is Best</b>에서 따온 약자이며 이름과는 다르게 생각보다 심플 않습니다...<br>
 						애니아 홈페이지를 만들면서 쌓아온 <s>야매</s>기술 모두 모았습니다.<br>
 						대부분 서버지기의 귀차니즘을 반영하여 약자로 표시합니다.<br>
 						서버지기가 사용하지 않는 태그는 지원하지 않습니다. ex) table <br>
@@ -52,7 +52,7 @@
 					<h3 class="bbdr mb10">그리드 형태 정의</h3>
 					<h4 class="">그리드는 PC, 모바일, 테블릿 환경 맞게 최적화된 레이아웃을 구성할 수 있게 도와줍니다.</h4>
 						<div class="info">
-							시스베는 기본적으로 12개의 열이 한라인을 구성합니다.<br>
+							티스베는 기본적으로 12개의 열이 한라인을 구성합니다.<br>
 							그리드 속 그리드를 통해 더 세밀하게 구성할 수도 있습니다.<br>
 							w1~w12로 사용합니다. (Width의 약자입니다.)
 							<code><xmp><div class="w6">content box</div></xmp></code>
@@ -109,7 +109,7 @@
 					<div class="info w12">
 						wac1~12은 한라인에 단하나의 grid만 필요할때 사용합니다. (Width Align Center)<br>
 						한줄에 하나의 그리드만 형성되면 화면 가운데에 위치하게 됩니다.<br>
-						여러개의 가운데에 배치하고 싶으시다면 wac속에 grid를 생성하면 됩니다.
+						여러개를 가운데에 배치하고 싶으시다면 wac속에 grid를 생성하면 됩니다.
 					</div>
 					<div class="w12 mt4">
 						<div class="wac1 box bdr stone center">wac1</div>
@@ -123,7 +123,7 @@
 						w-p~12모두 wd-p wdd-p의 형태로 이용하실 수 있습니다.
 					</div>
 					<div class="info red w12">
-						시스베는 12개의 그리드에 최적화 되어 설계 되어있습니다.
+						티스베는 12개의 그리드에 최적화 되어 설계 되어있습니다.
 						w와 w-p를 혼용해 사용하는 경우 레이아웃의 설계가 어려워질 수 있습니다.
 					</div>
 					<div class="w12">
@@ -181,6 +181,33 @@
 					</div>
 				</article>
 				<article class="p10 mt10">
+					<h3 class="w12">제목 입력</h3>
+					<div class="w12">
+						<h1>이 제목은 h1입니다.</h1>
+						<h2>이 제목은 h2입니다.</h2>
+						<h3>이 제목은 h3입니다.</h3>
+						<h4>이 제목은 h4입니다.</h4>
+						<h5>이 제목은 h5입니다.</h5>
+					</div>
+					<div class="info w12">
+						제목은 &lth1&gt테그와 class="h1" 양쪽 모두 사용 가능합니다.<br>
+						제목에는 기본적으로 하단에 1px의 border이 설정되어있습니다.<br>
+						이를 제거 하고싶으시다면 <kbd class="green">bdr0</kbd><span class="small"> (border: 0px)</span>, 
+						<kbd class="green">bbdr0</kbd> <span class="small">(bottom boder : 0px)</span>을 사용하세요.
+					</div>
+					<div class="info w12">
+						만약 제목이 아니지만 강조하고 싶으신 텍스트가 있으시다면 class에 b1~b5로 표시하실 수 있습니다.<br>
+						b1~b5태그는 class로만 사용이 가능합니다.
+					</div>
+					<div class="w12">
+						<div class="b1">이 문장은 b1입니다.</div>
+						<div class="b2">이 문장은 b2입니다.</div>
+						<div class="b3">이 문장은 b3입니다.</div>
+						<div class="b4">이 문장은 b4입니다.</div>
+						<div class="b5">이 문장은 b5입니다.</div>
+					</div>
+				</article>
+				<article class="p10 mt10">
 					<h3 class="w12 bbdr mb10">색상의 종류</h3>
 					<h4 class="w12">미리 정의되어있는 색상을 선택해 사용하실 수 있습니다.</h4>
 					<div class="w12 mt10 print-main">
@@ -193,7 +220,7 @@
 						</script>
 					</div>
 					<div class="w12 mt10 print-adven">
-						<div class="info w12">시스베에 존재하는 고급색상입니다. 플렛/파스텔톤의 색상들이 있습니다.<br>이후에 계속 추가됩니다.</div>
+						<div class="info w12">티스베에 존재하는 고급색상입니다. 플렛/파스텔톤의 색상들이 있습니다.<br>이후에 계속 추가됩니다.</div>
 						<div class="w12 small">c201xx 형식의 색상은 <a href="http://www.pantone.com/pages/pantone/index.aspx" target="_black">pantone</a>이 선정한 해당년도의 대표색상입니다.</div>
 						<script type="text/javascript">
 							color = Array("c2016se","c2016ro","c2017","perl","clay","coral","silver","wood","cream");
@@ -206,21 +233,39 @@
 					<code><xmp><printc-{color}>을 작성하시면 해당 색상의 HEX값을 출력합니다. ex) <printc-blue></xmp></code>
 					<h4 class="w12">기본적으로 색상이 사용되는 부분</h4>
 					<div class="info w12">
-						폰트 색상변경 <b>c{color}</b> or <b>{color}-text</b> ex) <span class="small">cblue, cred, blue-text, red-text</span>
+						폰트 색상변경 <b>t{color}</b> or <b>text-{color}</b> ex) <span class="small">cblue, cred, blue-text, red-text</span>
 						<div class="box w12">
-							<div class="w6 tright pr10">&ltspan class="red-text"&gt IM RED&lt/span&gt</div><div class="w6 red-text">IM RED</div>
-							<div class="w6 tright pr10">&ltspan class="blue-text"&gt IM BLUE&lt/span&gt</div><div class="w6 blue-text">IM BLUE</div>
-							<div class="w6 tright pr10">&ltspan class="cclay"&gt IM CLAY&lt/span&gt</div><div class="w6 cclay">IM CLAY</div>
-							<div class="w6 tright pr10">&ltspan class="cc2017"&gt IM C2017&lt/span&gt</div><div class="w6 cc2017">IM C2017</div>
+							<div class="w6 tright pr10">&ltspan class="text-red"&gt IM RED&lt/span&gt</div><div class="w6 text-red">IM RED</div>
+							<div class="w6 tright pr10">&ltspan class="text-blue"&gt IM BLUE&lt/span&gt</div><div class="w6 text-blue">IM BLUE</div>
+							<div class="w6 tright pr10">&ltspan class="tclay"&gt IM CLAY&lt/span&gt</div><div class="w6 tclay">IM CLAY</div>
+							<div class="w6 tright pr10">&ltspan class="tc2017"&gt IM C2017&lt/span&gt</div><div class="w6 tc2017">IM C2017</div>
 						</div>
 					</div>	
 					<div class="info w12">
-						배경 색상변경 <b>bg {color}</b> ex) <span class="small">bg blue, bg red</span>
+						배경 색상변경 <b>bg {color}</b> or  <b>bg-{color}</b> ex) <span class="small">bg blue, bg red</span>
 						<div class="box w12">
 							<div class="w6 tright pr5">&ltspan class="bg red"&gt IM RED&lt/span&gt </div><div class="w6 bg red pl5">IM RED</div>
 							<div class="w6 tright pr5">&ltspan class="bg blue"&gt IM BLUE&lt/span&gt </div><div class="w6 bg blue pl5">IM BLUE</div>
-							<div class="w6 tright pr5">&ltspan class="bg white"&gt IM WHITE&lt/span&gt </div><div class="w6 bg white pl5">IM WHITE</div>
-							<div class="w6 tright pr5">&ltspan class="bg oran"&gt IM ORAN&lt/span&gt </div><div class="w6 bg oran pl5">IM ORAN</div>
+							<div class="w6 tright pr5">&ltspan class="bg-white tblack"&gt IM WHITE&lt/span&gt </div><div class="w6 bg-white tblack pl5">IM WHITE</div>
+							<div class="w6 tright pr5">&ltspan class="bg-oran"&gt IM ORAN&lt/span&gt </div><div class="w6 bg-oran pl5">IM ORAN</div>
+						</div>
+						<div class="info blue w12">
+							배경색상은 bgl{1~9}-{color}로 더 밝게 어둡게를 설정하실 수 있습니다.
+							<div class="box w12">
+								<div class="box wd3 bgl2-red">wd3 bgl2-red</div>
+								<div class="box wd3 bgl4-red">wd3 bgl4-red</div>
+								<div class="box wd3 bgl6-red">wd3 bgl6-red</div>
+								<div class="box wd3 bgl8-red">wd3 bgl8-red</div>
+								<div class="box wd3 bgd2-blue">wd3 bgd2-blue</div>
+								<div class="box wd3 bgd4-blue">wd3 bgd4-blue</div>
+								<div class="box wd3 bgd6-blue">wd3 bgd6-blue</div>
+								<div class="box wd3 bgd8-blue">wd3 bgd8-blue</div>
+								<div class="box wd-p2 bgl6-green">wd-p2  bgl6-green</div>
+								<div class="box wd-p2 bgl3-green">wd-p2  bgl3-green</div>
+								<div class="box wd-p2 bg-green">wd-p2  bg-green</div>
+								<div class="box wd-p2 bgd3-green">wd-p2  bgd3-green</div>
+								<div class="box wd-p2 bgd6-green">wd-p2  bgd6-green</div>
+							</div>
 						</div>
 					</div>
 					<div class="info w12">
@@ -285,16 +330,37 @@
 							<button class="wd2 p15 btn top red">btn o top red</button>
 							<button class="wd2 p15 btn bottom blue">btn o down blue</button>
 							<button class="wd2 p15 btn right blue">btn o right blue</button>
-							<button class="wd4 p15 btn left clay radi8">btn o clay left right radi8</button>
+							<button class="wd4 p15 btn left clay radi8">btn clay left right radi8</button>
 						</div>
 						<div class="w12 mt4">
 							<button class="wd2 p15 btn o left blue">btn o left blue</button>
 							<button class="wd2 p15 btn o top red">btn o top red</button>
 							<button class="wd2 p15 btn o bottom blue">btn o down blue</button>
 							<button class="wd2 p15 btn o right blue">btn o right blue</button>
-							<button class="wd4 p15 btn o left silver radi8">btn o sliver left right radi8</button>
+							<button class="wd4 p15 btn o left silver radi8">btn o sliver left radi8</button>
 						</div>
 					</div>
+			</article>
+			
+			<article class="p10 mt10">
+				<h3 class="w12">박스 만들기</h3>
+				<div class="w12">
+					<div class="wd3 box">wd3 box</div>
+					<div class="wd3 box blue">wd3 box blue</div>
+					<div class="wd3 box red">wd3 box red</div>
+					<div class="wd3 box green radi6">wd3 box green</div>
+					<div class="wdd4 box o green">wdd3 box o green</div>
+					<div class="wdd4 box o red">wdd4 box o red</div>
+					<div class="wdd4 box o red bg-white radi6">wdd4 box o red bg-white</div>
+				</div>
+				<div class="w12">
+					<div class="wd4 info">wd6 info</div>
+					<div class="wd4 info blue">wd6 blue</div>
+					<div class="wd4 info oran">wd6 oran</div>
+					<div class="wd4 info red">wd6 red</div>
+					<div class="wd4 info red cred">wd6 red cred</div>
+					<div class="wd4 info red cred bgl8-red">wd6 info red cred bgl8-red</div>
+				</div>
 			</article>
 		</div>
 		</section>

@@ -1,0 +1,57 @@
+	@charset "utf-8";
+
+
+	@for $i from 1 through 12{
+		//Width
+		.tw#{$i}{width:calc(100%  / 12 * #{$i}) !important;float:left;word-break:break-all;
+			$set : append(device-set,&);
+		}
+		
+		//Wdith Deep
+		.twd#{$i}{width:calc((100%  / 12 * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all;
+			$set : append(device-set,&);
+		}
+		.twdd#{$i}{width:calc((100%  / 12 * #{$i}) - 8px) !important;margin-left:4px;margin-right:4px;float:left;word-break:break-all;
+			$set : append(device-set,&);
+		}
+		//Wdith Align Center
+		.twac#{$i}{width:calc(100%  / 12 * #{$i});margin-left:auto !important;margin-right:auto !important;
+			$set : append(device-set,&);
+		}
+	}
+	//Wdith Align Center Auto
+	.twaca{width:auto;margin-lkeft:auto;margin-right:auto;}
+	
+	@for $i from 0 through 15{
+		//Padding
+		html{
+			.tp#{$i}{padding:#{$i}px !important}
+			.tpl#{$i}{padding-left:#{$i}px !important}
+			.tpr#{$i}{padding-right:#{$i}px !important}
+			.tpt#{$i}{padding-top:#{$i}px !important}
+			.tpb#{$i}{padding-bottom:#{$i}px !important}
+			//Margin
+			.tm#{$i}{margin:#{$i}px !important}
+			.tml#{$i}{margin-left:#{$i}px !important}
+			.tmr#{$i}{margin-right:#{$i}px !important}
+			.tmt#{$i}{margin-top:#{$i}px !important}
+			.tmb#{$i}{margin-bottom:#{$i}px !important}
+		}
+	}
+	@for $i from 1 through 10{
+		.tradi#{$i*2}{border-radius:#{$i*2}px !important}
+	}
+	.tp-pt3{padding-top:3% !important}
+	.tp-pt5{padding-top:5% !important}
+	.tp-pt10{padding-top:10% !important}
+	.tp-mt3{margin-top:3% !important}
+	.tp-mt5{margin-top:5% !important}
+	.tp-mt10{margin-top:10% !important}
+	
+	@for $i from 1 through 10{
+		//Width Padding
+		.tw-p#{$i}{width:calc(10% * #{$i}) !important;float:left;word-break:break-all}
+		//width Deep Padding
+		.twd-p#{$i}{width:calc((10% * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all}
+		.twdd-p#{$i}{width:calc((10% * #{$i}) - 8px) !important;margin-left:4px;margin-right:4px;float:left;word-break:break-all}
+	}
