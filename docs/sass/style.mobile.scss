@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 
+@media all and (max-width:768px){
 	@for $i from 1 through 12{
 		//Width
 		.mw#{$i}{width:calc(100%  / 12 * #{$i}) !important;float:left;word-break:break-all;
@@ -55,3 +56,4 @@
 		.mwd-p#{$i}{width:calc((10% * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all}
 		.mwdd-p#{$i}{width:calc((10% * #{$i}) - 8px) !important;margin-left:4px;margin-right:4px;float:left;word-break:break-all}
 	}
+}

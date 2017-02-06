@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background: #f5f5f5;
+  background: #ebedf0;
   font-size: 14px;
   font-family: Helvetica Neue,Hevetica,"맑은 고딕",Sans-serif;
   -webkit-tap-highlight-color: transparent;
@@ -27,12 +27,14 @@ body {
   display: block;
   overflow: hidden; }
 
-section aside {
+aside {
   background: #f9f9f9; }
-section article {
+
+article {
   background: #f9f9f9;
   border: 1px solid #e5e5e5; }
-section div {
+
+div {
   width: auto;
   margin: auto;
   overflow: hidden;
@@ -709,13 +711,13 @@ html .mb15 {
 .p-pt10 {
   padding-top: 10% !important; }
 
-.p-mt3 {
+.m-pt3 {
   margin-top: 3% !important; }
 
-.p-mt5 {
+.m-pt5 {
   margin-top: 5% !important; }
 
-.p-mt10 {
+.m-pt10 {
   margin-top: 10% !important; }
 
 .w-p1 {
@@ -4026,6 +4028,16 @@ kbd.cream {
 s, strike {
   color: #ccc; }
 
+input.fake {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2; }
+
 xmp {
   background: #33373a;
   padding: 10px;
@@ -4083,7 +4095,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
     width: 100%;
     height: auto;
     min-height: 100%; } }
-@media all and (max-width: 768) {
+@media all and (max-width: 768px) {
   section {
     width: 100%;
     height: auto;

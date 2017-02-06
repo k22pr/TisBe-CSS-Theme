@@ -1,17 +1,17 @@
 @charset "utf-8";
 @import "variable.scss";
 body{
-	background:$white;font-size:14px;font-family:Helvetica Neue,Hevetica,"맑은 고딕",Sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0);font-weight:400;line-height:150%;letter-spacing:0px;
+	background:$background;font-size:14px;font-family:Helvetica Neue,Hevetica,"맑은 고딕",Sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0);font-weight:400;line-height:150%;letter-spacing:0px;
 	width:100%;height:100%;
 	-webkit-overflow-scrolling: touch;overflow-scrolling: touch;overflow-y:auto;-webkit-overflow-scrolling: touch;-moz-overflow-scrolling: touch;-ms-overflow-scrolling: touch;
 	canvas, article, section, div, button{position:relative;word-break:break-all;display:block;overflow:hidden;}
 }
 	.t-view{width:720px;margin:0px auto;display:block;overflow:hidden;}
-	section{
+	section{}
 		aside{background:$real-white;}
 		article{background:$real-white;border:1px solid $border-color;}
 		div{width:auto;margin:auto;overflow:hidden;display:block;}
-	}
+	
 	
 
 	
@@ -58,9 +58,9 @@ body{
 	.p-pt3{padding-top:3% !important}
 	.p-pt5{padding-top:5% !important}
 	.p-pt10{padding-top:10% !important}
-	.p-mt3{margin-top:3% !important}
-	.p-mt5{margin-top:5% !important}
-	.p-mt10{margin-top:10% !important}
+	.m-pt3{margin-top:3% !important}
+	.m-pt5{margin-top:5% !important}
+	.m-pt10{margin-top:10% !important}
 	
 	@for $i from 1 through 10{
 		//Width Padding
@@ -226,6 +226,9 @@ body{
 //strike
 s, strike{color:$grey;}
 
+//upload input
+input.fake{position:absolute;top:0px;left:0px;width:100%;height:100%;opacity:0;cursor:pointer;z-index:2;}
+
 //code
 xmp{background:$main;padding:10px;color:#e4e7ea;border-left:4px solid map-get($color,blue);width:100%;overflow:hidden;}
 
@@ -262,7 +265,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
 	@media all and (max-width: 970px) {
 		section{width:100%;height:auto;min-height:100%;}
 	}
-	@media all and (max-width:768){
+	@media all and (max-width:768px){
 		section{width:100%;height:auto;min-height:100%;}
 	}
 
