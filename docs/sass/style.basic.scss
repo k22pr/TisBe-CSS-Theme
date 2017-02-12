@@ -1,16 +1,21 @@
 @charset "utf-8";
 @import "variable.scss";
+
+:lang(ja) {font-family:osaka,'Noto Sans JP', sans-serif  !important}
+:lang(en) {font-family:helvetica neue, sans-serif !important}
+
 body{
-	background:$background;font-size:14px;font-family:Helvetica Neue,Hevetica,"맑은 고딕",Sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0);font-weight:400;line-height:150%;letter-spacing:0px;
-	width:100%;height:100%;
+	background:$background;font-size:14px;font-family:Helvetica Neue,Hevetica,"맑은 고딕",Sans-serif;font-weight:400;line-height:150%;letter-spacing:0px;
+	width:100%;height:100%;tap-highlight-color : transparent;font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;overflow-scrolling: touch;overflow-y:auto;-webkit-overflow-scrolling: touch;-moz-overflow-scrolling: touch;-ms-overflow-scrolling: touch;
+	
 	canvas, article, section, div, button{position:relative;word-break:break-all;display:block;overflow:hidden;}
 }
 	.t-view{width:720px;margin:0px auto;display:block;overflow:hidden;}
 	section{}
 		aside{background:$real-white;}
-		article{background:$real-white;border:1px solid $border-color;}
-		div{width:auto;margin:auto;overflow:hidden;display:block;}
+		article{border:1px solid $border-color;}
+		div{width:auto;margin:auto;overflow:hidden;display:block;line-height:150%;}
 	
 	
 
@@ -35,8 +40,9 @@ body{
 	}
 	//Wdith Align Center Auto
 	.waca{width:auto;margin-lkeft:auto;margin-right:auto;}
+	.pwdiv7{width:calc(100% / 7) !important;float:left;}
 	
-	@for $i from 0 through 15{
+	@for $i from 0 through 20{
 		//Padding
 		html{
 			.p#{$i}{padding:#{$i}px !important}
@@ -44,6 +50,7 @@ body{
 			.pr#{$i}{padding-right:#{$i}px !important}
 			.pt#{$i}{padding-top:#{$i}px !important}
 			.pb#{$i}{padding-bottom:#{$i}px !important}
+			
 			//Margin
 			.m#{$i}{margin:#{$i}px !important}
 			.ml#{$i}{margin-left:#{$i}px !important}
@@ -54,13 +61,11 @@ body{
 	}
 	@for $i from 0 through 10{
 		.radi#{$i*2}{border-radius:#{$i*2}px !important}
+			.pt-p#{$i}{padding-top:#{$i}% !important}
+			.pb-p#{$i}{padding-bottom:#{$i}% !important}
+			.mt-p#{$i}{margin-top:#{$i}% !important}
+			.mb-p#{$i}{margin-bottom:#{$i}% !important}
 	}
-	.p-pt3{padding-top:3% !important}
-	.p-pt5{padding-top:5% !important}
-	.p-pt10{padding-top:10% !important}
-	.m-pt3{margin-top:3% !important}
-	.m-pt5{margin-top:5% !important}
-	.m-pt10{margin-top:10% !important}
 	
 	@for $i from 1 through 10{
 		//Width Padding
@@ -102,7 +107,7 @@ body{
  h2, .h2, .b2{font-size:2.1em;}
  h3, .h3, .b3{font-size:1.8em;}
  h4, .h4, .b4{font-size:1.4em;}
- h5, .h5n .b5{font-size:1.2em;}
+ h5, .h5, .b5{font-size:1.2em;}
 
 //text align
 .center, .tcenter{text-align:center;} // text center
@@ -205,7 +210,7 @@ body{
 
 //$color Color
 .dc, .deep-text{color:#999}
-.sc, .small{color:#999;font-size:0.9em;}
+.sc, .small{color:#999 !important;font-size:0.9em !important;}
 	.small-text{color:#999}
 	
 //background
@@ -220,7 +225,7 @@ body{
 .ab.l0{left:0px;}
 
 //text양식
-.info{border-left:3px solid $border-color;padding-left:5px;margin-bottom:10px;padding:10px;margin-top:5px;margi-bottom:5px;background:$real-white;}
+.info{color:$main;border-left:3px solid $border-color;padding-left:5px;margin-bottom:10px;padding:10px;margin-top:5px;margin-bottom:5px;background:$real-white;}
 .info.white{color:$black}
 
 //strike
@@ -234,17 +239,23 @@ xmp{background:$main;padding:10px;color:#e4e7ea;border-left:4px solid map-get($c
 
 //list
 ul{width:100%;
-	li{color:$main;border-bottom:1px solid $border-color;width:100%;padding:8px;background:$white;border-left:2px solid $grey;}
+	li{color:$main;border-bottom:1px solid $border-color;width:100%;padding:8px;background:$real-white;}
 	li.black{background:$main;color:$white;}
 	li.white{background:$real-white}
-	li:hover{background:$real-white}
+	li:hover{background:$white}
+	li.list{float:left;}
 }
 
 //kbd
-kbd{background:$border-color;color:$nine;padding:1px 5px 2px 5px;border-radius:5px;}
+kbd{background:rgba(128,128,128,0.1);color:#555;padding:2px 4px;border-radius:5px;font-size:11px;}
 
 //input
-input[type="text"], input[type="password"], input[type="email"], input[type="number"]{padding:8px;border:1px solid $border-color;font-size:1em;;}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"]{padding:8px;border:1px solid $border-color;}
+
+//img
+/*img profile*/
+img.profile{width:100px;height:100px;border-radius:50%;border:1px solid rgba(0,0,0,0.7)}
+img.icon{width:48px;height:48px;border-radius:50%;border:1px solid rgba(0,0,0,0.7)}
 
 	@each $name, $size in $device-list{
 		/*device*/

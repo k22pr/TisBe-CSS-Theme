@@ -12,6 +12,7 @@
 		.mwd#{$i}{width:calc((100%  / 12 * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all;
 			$set : append(device-set,&);
 		}
+		//
 		.mwdd#{$i}{width:calc((100%  / 12 * #{$i}) - 8px) !important;margin-left:4px;margin-right:4px;float:left;word-break:break-all;
 			$set : append(device-set,&);
 		}
@@ -56,4 +57,6 @@
 		.mwd-p#{$i}{width:calc((10% * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all}
 		.mwdd-p#{$i}{width:calc((10% * #{$i}) - 8px) !important;margin-left:4px;margin-right:4px;float:left;word-break:break-all}
 	}
+	
+	.mhide, .hide-m{display:none;}
 }

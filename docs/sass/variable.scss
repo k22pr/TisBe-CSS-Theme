@@ -11,14 +11,14 @@ $background : #ebedf0;
 $black : #222;
 	$real-black : #000;
 $grey : #ccc;
-$white : #f5f5f5;
+$white : #f9f9f9;
 	//최대흰색 서버지기는 #fff가 너무밝아 싫어하기 때문에 제한을 두었습니다. 사용자에 맞게 수정해서 쓰세요.
-	$real-white : #f9f9f9;
+	$real-white : #fff;
 $main : #33373a;
 	$hover-main : #404446;
 
 //color
-$color : (black : $black, grey : #888, main : $main, blue : #3a9cfd, red : #E35959, sky : #1bb2f9, oran : #f9ac44, green : #47c14d, stone : #aaa, white : $real-white, 
+$color : (black : $black, grey : #888, main : $main, main-hover : #41454f, blue : #3a9cfd, red : #E35959, sky : #1bb2f9, oran : #f9ac44, green : #47c14d, purple : #b834d4, stone : #aaa, white : $real-white, 
 	c2016se : #91a7d0, c2016ro : #f6cac9, c2017 : #86af49, perl : #46454d, clay : #ce8477, coral : #ef5c6e, silver : #8a9a9a, wood : #af8c90, cream : #f0e1ce
 );
 $hover :(black : #333, main : #404446, blue : #42a1ff, red : #eb6666, sky : #29bbff, oran : #ffb34d, green : #4dc553, stone : #aaa, white : $white);
