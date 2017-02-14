@@ -1,291 +1,256 @@
 @media all and (min-width: 971px) {
-  .pw1 {
+  body .pw1 {
     width: calc(100%  / 12 * 1) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd1 {
+  body .pwd1 {
     width: calc((100%  / 12 * 1) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd1 {
+  body .pwdd1 {
     width: calc((100%  / 12 * 1) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac1 {
-    width: calc(100%  / 12 * 1);
+  body .pwac1 {
+    width: calc(100%  / 12 * 1) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw2 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw2 {
     width: calc(100%  / 12 * 2) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd2 {
+  body .pwd2 {
     width: calc((100%  / 12 * 2) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd2 {
+  body .pwdd2 {
     width: calc((100%  / 12 * 2) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac2 {
-    width: calc(100%  / 12 * 2);
+  body .pwac2 {
+    width: calc(100%  / 12 * 2) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw3 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw3 {
     width: calc(100%  / 12 * 3) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd3 {
+  body .pwd3 {
     width: calc((100%  / 12 * 3) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd3 {
+  body .pwdd3 {
     width: calc((100%  / 12 * 3) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac3 {
-    width: calc(100%  / 12 * 3);
+  body .pwac3 {
+    width: calc(100%  / 12 * 3) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw4 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw4 {
     width: calc(100%  / 12 * 4) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd4 {
+  body .pwd4 {
     width: calc((100%  / 12 * 4) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd4 {
+  body .pwdd4 {
     width: calc((100%  / 12 * 4) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac4 {
-    width: calc(100%  / 12 * 4);
+  body .pwac4 {
+    width: calc(100%  / 12 * 4) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw5 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw5 {
     width: calc(100%  / 12 * 5) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd5 {
+  body .pwd5 {
     width: calc((100%  / 12 * 5) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd5 {
+  body .pwdd5 {
     width: calc((100%  / 12 * 5) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac5 {
-    width: calc(100%  / 12 * 5);
+  body .pwac5 {
+    width: calc(100%  / 12 * 5) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw6 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw6 {
     width: calc(100%  / 12 * 6) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd6 {
+  body .pwd6 {
     width: calc((100%  / 12 * 6) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd6 {
+  body .pwdd6 {
     width: calc((100%  / 12 * 6) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac6 {
-    width: calc(100%  / 12 * 6);
+  body .pwac6 {
+    width: calc(100%  / 12 * 6) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw7 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw7 {
     width: calc(100%  / 12 * 7) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd7 {
+  body .pwd7 {
     width: calc((100%  / 12 * 7) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd7 {
+  body .pwdd7 {
     width: calc((100%  / 12 * 7) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac7 {
-    width: calc(100%  / 12 * 7);
+  body .pwac7 {
+    width: calc(100%  / 12 * 7) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw8 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw8 {
     width: calc(100%  / 12 * 8) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd8 {
+  body .pwd8 {
     width: calc((100%  / 12 * 8) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd8 {
+  body .pwdd8 {
     width: calc((100%  / 12 * 8) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac8 {
-    width: calc(100%  / 12 * 8);
+  body .pwac8 {
+    width: calc(100%  / 12 * 8) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw9 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw9 {
     width: calc(100%  / 12 * 9) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd9 {
+  body .pwd9 {
     width: calc((100%  / 12 * 9) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd9 {
+  body .pwdd9 {
     width: calc((100%  / 12 * 9) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac9 {
-    width: calc(100%  / 12 * 9);
+  body .pwac9 {
+    width: calc(100%  / 12 * 9) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw10 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw10 {
     width: calc(100%  / 12 * 10) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd10 {
+  body .pwd10 {
     width: calc((100%  / 12 * 10) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd10 {
+  body .pwdd10 {
     width: calc((100%  / 12 * 10) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac10 {
-    width: calc(100%  / 12 * 10);
+  body .pwac10 {
+    width: calc(100%  / 12 * 10) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw11 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw11 {
     width: calc(100%  / 12 * 11) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd11 {
+  body .pwd11 {
     width: calc((100%  / 12 * 11) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd11 {
+  body .pwdd11 {
     width: calc((100%  / 12 * 11) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac11 {
-    width: calc(100%  / 12 * 11);
+  body .pwac11 {
+    width: calc(100%  / 12 * 11) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .pw12 {
+    margin-right: auto !important;
+    float: initial; }
+  body .pw12 {
     width: calc(100%  / 12 * 12) !important;
     float: left;
     word-break: break-all; }
-
-  .pwd12 {
+  body .pwd12 {
     width: calc((100%  / 12 * 12) - 4px) !important;
     margin-left: 2px;
     margin-right: 2px;
     float: left;
     word-break: break-all; }
-
-  .pwdd12 {
+  body .pwdd12 {
     width: calc((100%  / 12 * 12) - 8px) !important;
     margin-left: 4px;
     margin-right: 4px;
     float: left;
     word-break: break-all; }
-
-  .pwac12 {
-    width: calc(100%  / 12 * 12);
+  body .pwac12 {
+    width: calc(100%  / 12 * 12) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    float: initial; }
 
   .pwaca {
     width: auto;

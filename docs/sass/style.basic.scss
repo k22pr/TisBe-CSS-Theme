@@ -17,7 +17,7 @@ body{
 		article{border:1px solid $border-color;}
 		div{width:auto;margin:auto;overflow:hidden;display:block;line-height:150%;}
 		
-	pre{border:1px solid $border-color;padding:10px;background:$real-white;color:$main;}
+	pre{border:1px solid $border-color;padding:10px;background:$real-white;color:$main;margin-top:5px;margin-bottoom:5px;}
 	
 	
 
@@ -36,8 +36,8 @@ body{
 			$set : append(device-set,&);
 		}
 		//Wdith Align Center
-		.wac#{$i}{width:calc(100%  / 12 * #{$i});margin-left:auto !important;margin-right:auto !important;float:left;word-break:break-all;
-			$set : append(device-set,&);
+		.wac#{$i}{width:calc(100%  / 12 * #{$i});margin-left:auto !important;margin-right:auto !important;
+			overflow:hidden;position:relative;display:block;
 		}
 	}
 	//Wdith Align Center Auto
@@ -68,6 +68,7 @@ body{
 			.mt-p#{$i}{margin-top:#{$i}% !important}
 			.mb-p#{$i}{margin-bottom:#{$i}% !important}
 	}
+	.radi-p50{border-radius:50%;}
 	
 	@for $i from 1 through 10{
 		//Width Padding

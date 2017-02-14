@@ -1,22 +1,24 @@
 @charset "utf-8";
 
 @media all and (min-width: 971px) {
-	@for $i from 1 through 12{
-		//Width
-		.pw#{$i}{width:calc(100%  / 12 * #{$i}) !important;float:left;word-break:break-all;
-			$set : append(device-set,&);
-		}
-		
-		//Wdith Deep
-		.pwd#{$i}{width:calc((100%  / 12 * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all;
-			$set : append(device-set,&);
-		}
-		.pwdd#{$i}{width:calc((100%  / 12 * #{$i}) - 8px) !important;margin-left:4px;margin-right:4px;float:left;word-break:break-all;
-			$set : append(device-set,&);
-		}
-		//Wdith Align Center
-		.pwac#{$i}{width:calc(100%  / 12 * #{$i});margin-left:auto !important;margin-right:auto !important;
-			$set : append(device-set,&);
+	body{
+		@for $i from 1 through 12{
+			//Width
+			.pw#{$i}{width:calc(100%  / 12 * #{$i}) !important;float:left;word-break:break-all;
+				$set : append(device-set,&);
+			}
+			
+			//Wdith Deep
+			.pwd#{$i}{width:calc((100%  / 12 * #{$i}) - 4px) !important;margin-left:2px;margin-right:2px;float:left;word-break:break-all;
+				$set : append(device-set,&);
+			}
+			.pwdd#{$i}{width:calc((100%  / 12 * #{$i}) - 8px) !important;margin-left:4px;margin-right:4px;float:left;word-break:break-all;
+				$set : append(device-set,&);
+			}
+			//Wdith Align Center
+			.pwac#{$i}{width:calc(100%  / 12 * #{$i}) !important;margin-left:auto !important;margin-right:auto !important;
+				$set : append(device-set,&);float:initial;
+			}
 		}
 	}
 	//Wdith Align Center Auto

@@ -51,7 +51,9 @@ pre {
   border: 1px solid #e5e5e5;
   padding: 10px;
   background: #fff;
-  color: #33373a; }
+  color: #33373a;
+  margin-top: 5px;
+  margin-bottoom: 5px; }
 
 .w1 {
   width: calc(100%  / 12 * 1) !important;
@@ -76,8 +78,9 @@ pre {
   width: calc(100%  / 12 * 1);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w2 {
   width: calc(100%  / 12 * 2) !important;
@@ -102,8 +105,9 @@ pre {
   width: calc(100%  / 12 * 2);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w3 {
   width: calc(100%  / 12 * 3) !important;
@@ -128,8 +132,9 @@ pre {
   width: calc(100%  / 12 * 3);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w4 {
   width: calc(100%  / 12 * 4) !important;
@@ -154,8 +159,9 @@ pre {
   width: calc(100%  / 12 * 4);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w5 {
   width: calc(100%  / 12 * 5) !important;
@@ -180,8 +186,9 @@ pre {
   width: calc(100%  / 12 * 5);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w6 {
   width: calc(100%  / 12 * 6) !important;
@@ -206,8 +213,9 @@ pre {
   width: calc(100%  / 12 * 6);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w7 {
   width: calc(100%  / 12 * 7) !important;
@@ -232,8 +240,9 @@ pre {
   width: calc(100%  / 12 * 7);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w8 {
   width: calc(100%  / 12 * 8) !important;
@@ -258,8 +267,9 @@ pre {
   width: calc(100%  / 12 * 8);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w9 {
   width: calc(100%  / 12 * 9) !important;
@@ -284,8 +294,9 @@ pre {
   width: calc(100%  / 12 * 9);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w10 {
   width: calc(100%  / 12 * 10) !important;
@@ -310,8 +321,9 @@ pre {
   width: calc(100%  / 12 * 10);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w11 {
   width: calc(100%  / 12 * 11) !important;
@@ -336,8 +348,9 @@ pre {
   width: calc(100%  / 12 * 11);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .w12 {
   width: calc(100%  / 12 * 12) !important;
@@ -362,8 +375,9 @@ pre {
   width: calc(100%  / 12 * 12);
   margin-left: auto !important;
   margin-right: auto !important;
-  float: left;
-  word-break: break-all; }
+  overflow: hidden;
+  position: relative;
+  display: block; }
 
 .waca {
   width: auto;
@@ -979,6 +993,9 @@ html .mb20 {
 
 .mb-p10 {
   margin-bottom: 10% !important; }
+
+.radi-p50 {
+  border-radius: 50%; }
 
 .w-p1 {
   width: calc(10% * 1) !important;
