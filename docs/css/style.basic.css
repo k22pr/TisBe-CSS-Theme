@@ -55,6 +55,18 @@ pre {
   margin-top: 5px;
   margin-bottoom: 5px; }
 
+.flex {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.over {
+  display: relative;
+  overflow: hidden; }
+
 .w1 {
   width: calc(100%  / 12 * 1) !important;
   float: left;
@@ -4574,6 +4586,13 @@ kbd.cream {
 .small-color {
   color: #999; }
 
+.l {
+  font-size: 0.9em;
+  color: rgba(128, 128, 128, 0.5);
+  padding: 0px 2px;
+  font-weight: normal;
+  vertical-align: top; }
+
 .bg.white, .bg-white {
   color: #222; }
 
@@ -4647,6 +4666,13 @@ ul {
   ul li.list {
     float: left; }
 
+div.background.black {
+  z-index: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%; }
+
 kbd {
   background: rgba(128, 128, 128, 0.1);
   color: #555;
@@ -4657,6 +4683,12 @@ kbd {
 input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
   padding: 8px;
   border: 1px solid #e5e5e5; }
+
+.tsb {
+  text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.5), -1px 0px 0px rgba(0, 0, 0, 0.5), 0px -1px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(0, 0, 0, 0.5); }
+
+.tsb3 {
+  text-shadow: 3px 0px 1px rgba(0, 0, 0, 0.5), -3px 0px 1px rgba(0, 0, 0, 0.5), 0px -3px 1px rgba(0, 0, 0, 0.5), 0px 3px 1px rgba(0, 0, 0, 0.5); }
 
 /*img profile*/
 img.profile {
