@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -62,5 +63,8 @@ a {
 
 input:focus {
   outline: none; }
+
+input, textarea {
+  font-family: '맑은고딕'; }
 
 /*# sourceMappingURL=default_setting.css.map */
