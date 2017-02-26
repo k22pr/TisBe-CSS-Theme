@@ -26,7 +26,10 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent; }
 
 ol, ul {
   list-style: none; }
@@ -9322,5 +9325,3 @@ img.icon {
 
 .coin-text {
   color: #E6B15F; }
-
-/*# sourceMappingURL=index.css.map */

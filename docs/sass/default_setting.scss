@@ -27,6 +27,9 @@ article, aside, details, figcaption, figure,
 }
 body {
 	line-height: 1;
+	-webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
 }
 ol, ul {
 	list-style: none;
