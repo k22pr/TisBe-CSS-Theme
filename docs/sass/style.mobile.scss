@@ -17,8 +17,8 @@
 			$set : append(device-set,&);
 		}
 		//Wdith Align Center
-		.mwac#{$i}{width:calc(100%  / 12 * #{$i});margin-left:auto !important;margin-right:auto !important;
-			$set : append(device-set,&);
+		.mwac#{$i}{width:calc(100%  / 12 * #{$i}) !important;margin-left:auto !important;margin-right:auto !important;
+			$set : append(device-set,&);overflow:hidden;position:relative;display:block
 		}
 	}
 	//Wdith Align Center Auto

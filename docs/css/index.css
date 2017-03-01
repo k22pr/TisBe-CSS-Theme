@@ -28,7 +28,6 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   -webkit-touch-callout: none;
-  -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent; }
 
 ol, ul {
@@ -68,6 +67,11 @@ input:focus {
   outline: none; }
 
 input, textarea {
+  font-family: '맑은고딕';
+  text-decoration: none; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4,
+b1, .b1, b2, .b2, b3, .b3, b4, .b4 {
   font-family: '맑은고딕'; }
 
 @-webkit-keyframes black-btn-hover {
@@ -2005,6 +2009,68 @@ input, textarea {
     background: -webkit-radial-gradient(circle, #f9f9f9 90%, #fff 90%, #fff 100%); }
   100% {
     background: -webkit-radial-gradient(circle, #f9f9f9 100%, #fff 100%, #fff 100%); } }
+.rotate-left {
+  animation: rotate-left 2s linear infinite; }
+
+@-webkit-keyframes rotate-left {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
+@-moz-keyframes rotate-left {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
+@-o-keyframes rotate-left {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-left {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
+.rotate-right {
+  animation: rotate-right 2s linear infinite; }
+
+@-webkit-keyframes rotate-right {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(-180deg); }
+  100% {
+    transform: rotate(-360deg); } }
+@-moz-keyframes rotate-right {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(-180deg); }
+  100% {
+    transform: rotate(-360deg); } }
+@-o-keyframes rotate-right {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(-180deg); }
+  100% {
+    transform: rotate(-360deg); } }
+@keyframes rotate-right {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(-180deg); }
+  100% {
+    transform: rotate(-360deg); } }
 :lang(ja) {
   font-family: osaka,'Noto Sans JP', sans-serif  !important; }
 
@@ -3347,7 +3413,8 @@ h5, .h5, .b5 {
   cursor: pointer !important; }
 
 .aleft {
-  float: left; }
+  float: left;
+  width: auto; }
 
 .aright {
   float: right !important; }
@@ -8471,9 +8538,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac1 {
-    width: calc(100%  / 12 * 1);
+    width: calc(100%  / 12 * 1) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw2 {
     width: calc(100%  / 12 * 2) !important;
@@ -8495,9 +8565,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac2 {
-    width: calc(100%  / 12 * 2);
+    width: calc(100%  / 12 * 2) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw3 {
     width: calc(100%  / 12 * 3) !important;
@@ -8519,9 +8592,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac3 {
-    width: calc(100%  / 12 * 3);
+    width: calc(100%  / 12 * 3) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw4 {
     width: calc(100%  / 12 * 4) !important;
@@ -8543,9 +8619,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac4 {
-    width: calc(100%  / 12 * 4);
+    width: calc(100%  / 12 * 4) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw5 {
     width: calc(100%  / 12 * 5) !important;
@@ -8567,9 +8646,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac5 {
-    width: calc(100%  / 12 * 5);
+    width: calc(100%  / 12 * 5) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw6 {
     width: calc(100%  / 12 * 6) !important;
@@ -8591,9 +8673,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac6 {
-    width: calc(100%  / 12 * 6);
+    width: calc(100%  / 12 * 6) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw7 {
     width: calc(100%  / 12 * 7) !important;
@@ -8615,9 +8700,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac7 {
-    width: calc(100%  / 12 * 7);
+    width: calc(100%  / 12 * 7) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw8 {
     width: calc(100%  / 12 * 8) !important;
@@ -8639,9 +8727,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac8 {
-    width: calc(100%  / 12 * 8);
+    width: calc(100%  / 12 * 8) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw9 {
     width: calc(100%  / 12 * 9) !important;
@@ -8663,9 +8754,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac9 {
-    width: calc(100%  / 12 * 9);
+    width: calc(100%  / 12 * 9) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw10 {
     width: calc(100%  / 12 * 10) !important;
@@ -8687,9 +8781,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac10 {
-    width: calc(100%  / 12 * 10);
+    width: calc(100%  / 12 * 10) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw11 {
     width: calc(100%  / 12 * 11) !important;
@@ -8711,9 +8808,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac11 {
-    width: calc(100%  / 12 * 11);
+    width: calc(100%  / 12 * 11) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw12 {
     width: calc(100%  / 12 * 12) !important;
@@ -8735,9 +8835,12 @@ img.icon {
     word-break: break-all; }
 
   .mwac12 {
-    width: calc(100%  / 12 * 12);
+    width: calc(100%  / 12 * 12) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mwaca {
     width: auto;

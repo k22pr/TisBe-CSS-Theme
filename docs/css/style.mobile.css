@@ -19,9 +19,12 @@
     word-break: break-all; }
 
   .mwac1 {
-    width: calc(100%  / 12 * 1);
+    width: calc(100%  / 12 * 1) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw2 {
     width: calc(100%  / 12 * 2) !important;
@@ -43,9 +46,12 @@
     word-break: break-all; }
 
   .mwac2 {
-    width: calc(100%  / 12 * 2);
+    width: calc(100%  / 12 * 2) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw3 {
     width: calc(100%  / 12 * 3) !important;
@@ -67,9 +73,12 @@
     word-break: break-all; }
 
   .mwac3 {
-    width: calc(100%  / 12 * 3);
+    width: calc(100%  / 12 * 3) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw4 {
     width: calc(100%  / 12 * 4) !important;
@@ -91,9 +100,12 @@
     word-break: break-all; }
 
   .mwac4 {
-    width: calc(100%  / 12 * 4);
+    width: calc(100%  / 12 * 4) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw5 {
     width: calc(100%  / 12 * 5) !important;
@@ -115,9 +127,12 @@
     word-break: break-all; }
 
   .mwac5 {
-    width: calc(100%  / 12 * 5);
+    width: calc(100%  / 12 * 5) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw6 {
     width: calc(100%  / 12 * 6) !important;
@@ -139,9 +154,12 @@
     word-break: break-all; }
 
   .mwac6 {
-    width: calc(100%  / 12 * 6);
+    width: calc(100%  / 12 * 6) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw7 {
     width: calc(100%  / 12 * 7) !important;
@@ -163,9 +181,12 @@
     word-break: break-all; }
 
   .mwac7 {
-    width: calc(100%  / 12 * 7);
+    width: calc(100%  / 12 * 7) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw8 {
     width: calc(100%  / 12 * 8) !important;
@@ -187,9 +208,12 @@
     word-break: break-all; }
 
   .mwac8 {
-    width: calc(100%  / 12 * 8);
+    width: calc(100%  / 12 * 8) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw9 {
     width: calc(100%  / 12 * 9) !important;
@@ -211,9 +235,12 @@
     word-break: break-all; }
 
   .mwac9 {
-    width: calc(100%  / 12 * 9);
+    width: calc(100%  / 12 * 9) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw10 {
     width: calc(100%  / 12 * 10) !important;
@@ -235,9 +262,12 @@
     word-break: break-all; }
 
   .mwac10 {
-    width: calc(100%  / 12 * 10);
+    width: calc(100%  / 12 * 10) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw11 {
     width: calc(100%  / 12 * 11) !important;
@@ -259,9 +289,12 @@
     word-break: break-all; }
 
   .mwac11 {
-    width: calc(100%  / 12 * 11);
+    width: calc(100%  / 12 * 11) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mw12 {
     width: calc(100%  / 12 * 12) !important;
@@ -283,9 +316,12 @@
     word-break: break-all; }
 
   .mwac12 {
-    width: calc(100%  / 12 * 12);
+    width: calc(100%  / 12 * 12) !important;
     margin-left: auto !important;
-    margin-right: auto !important; }
+    margin-right: auto !important;
+    overflow: hidden;
+    position: relative;
+    display: block; }
 
   .mwaca {
     width: auto;

@@ -1933,5 +1933,67 @@
     background: -webkit-radial-gradient(circle, #f9f9f9 90%, #fff 90%, #fff 100%); }
   100% {
     background: -webkit-radial-gradient(circle, #f9f9f9 100%, #fff 100%, #fff 100%); } }
+.rotate-left {
+  animation: rotate-left 2s linear infinite; }
+
+@-webkit-keyframes rotate-left {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
+@-moz-keyframes rotate-left {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
+@-o-keyframes rotate-left {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-left {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
+.rotate-right {
+  animation: rotate-right 2s linear infinite; }
+
+@-webkit-keyframes rotate-right {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(-180deg); }
+  100% {
+    transform: rotate(-360deg); } }
+@-moz-keyframes rotate-right {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(-180deg); }
+  100% {
+    transform: rotate(-360deg); } }
+@-o-keyframes rotate-right {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(-180deg); }
+  100% {
+    transform: rotate(-360deg); } }
+@keyframes rotate-right {
+  0% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(-180deg); }
+  100% {
+    transform: rotate(-360deg); } }
 
 /*# sourceMappingURL=keyframe.css.map */

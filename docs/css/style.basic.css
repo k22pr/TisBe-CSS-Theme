@@ -1341,7 +1341,8 @@ h5, .h5, .b5 {
   cursor: pointer !important; }
 
 .aleft {
-  float: left; }
+  float: left;
+  width: auto; }
 
 .aright {
   float: right !important; }
