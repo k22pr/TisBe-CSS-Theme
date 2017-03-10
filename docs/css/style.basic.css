@@ -1317,7 +1317,7 @@ h5, .h5, .b5 {
   font-family: '굴림','Sans-serif'; }
 
 .hide {
-  display: none; }
+  display: none !important; }
 
 .over {
   display: over; }

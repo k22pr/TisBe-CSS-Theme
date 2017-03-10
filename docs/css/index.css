@@ -70,8 +70,8 @@ input, textarea {
   font-family: '맑은고딕';
   text-decoration: none; }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4,
-b1, .b1, b2, .b2, b3, .b3, b4, .b4 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5,
+b1, .b1, b2, .b2, b3, .b3, b4, .b4, .b5 {
   font-family: '맑은고딕'; }
 
 @-webkit-keyframes black-btn-hover {
@@ -3389,7 +3389,7 @@ h5, .h5, .b5 {
   font-family: '굴림','Sans-serif'; }
 
 .hide {
-  display: none; }
+  display: none !important; }
 
 .over {
   display: over; }

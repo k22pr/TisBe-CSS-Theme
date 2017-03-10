@@ -137,7 +137,7 @@ body{
 
 //display
 .hide{
-	display:none;
+	display:none !important;
 }
 .over{display:over;}
 .show, .block{display:block}
