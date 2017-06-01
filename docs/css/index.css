@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
+  font-family: "'Open Sans', arial, 'Apple SD Gothic Neo','나눔바른고딕', '나눔고딕', 'NanumGothic', '맑은고딕', 'Malgun Gothic', sans-serif";
   line-height: 1;
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: transparent; }
@@ -67,12 +68,11 @@ input:focus {
   outline: none; }
 
 input, textarea {
-  font-family: '맑은고딕';
   text-decoration: none; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5,
 b1, .b1, b2, .b2, b3, .b3, b4, .b4, .b5 {
-  font-family: '맑은고딕'; }
+  font-family: "'Open Sans', arial, 'Apple SD Gothic Neo','나눔바른고딕', '나눔고딕', 'NanumGothic', '맑은고딕', 'Malgun Gothic', sans-serif"; }
 
 @-webkit-keyframes black-btn-hover {
   0% {
@@ -6779,6 +6779,18 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
 .tsb3 {
   text-shadow: 3px 0px 1px rgba(0, 0, 0, 0.5), -3px 0px 1px rgba(0, 0, 0, 0.5), 0px -3px 1px rgba(0, 0, 0, 0.5), 0px 3px 1px rgba(0, 0, 0, 0.5); }
 
+/*tab menu*/
+div.tab-menu div.tab-box {
+  background-color: #eee;
+  text-align: center;
+  opacity: 0.6;
+  filter: grayscale(100%);
+  transition: 0.3 ease 0s; }
+div.tab-menu div.tab-box.hover {
+  background: #fff;
+  opacity: 1;
+  filter: grayscale(0%); }
+
 /*img profile*/
 img.profile {
   width: 100px;
@@ -9428,3 +9440,5 @@ img.icon {
 
 .coin-text {
   color: #E6B15F; }
+
+/*# sourceMappingURL=index.css.map */

@@ -26,6 +26,7 @@ article, aside, details, figcaption, figure,
 	display: block;
 }
 body {
+	font-family: "'Open Sans', arial, 'Apple SD Gothic Neo','나눔바른고딕', '나눔고딕', 'NanumGothic', '맑은고딕', 'Malgun Gothic', sans-serif";
 	line-height: 1;
 	-webkit-touch-callout:none;
     //-webkit-user-select:none;
@@ -61,7 +62,7 @@ input:focus {
   outline: none;
 }
 
-input, textarea{font-family:'맑은고딕';text-decoration:none;}
+input, textarea{text-decoration:none;}
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5,
-b1, .b1, b2, .b2, b3, .b3, b4, .b4, .b5{font-family:'맑은고딕';}
+b1, .b1, b2, .b2, b3, .b3, b4, .b4, .b5{font-family: "'Open Sans', arial, 'Apple SD Gothic Neo','나눔바른고딕', '나눔고딕', 'NanumGothic', '맑은고딕', 'Malgun Gothic', sans-serif"}
