@@ -4708,16 +4708,18 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
   text-shadow: 3px 0px 1px rgba(0, 0, 0, 0.5), -3px 0px 1px rgba(0, 0, 0, 0.5), 0px -3px 1px rgba(0, 0, 0, 0.5), 0px 3px 1px rgba(0, 0, 0, 0.5); }
 
 /*tab menu*/
-div.tab-menu div.tab-box {
-  background-color: #eee;
-  text-align: center;
-  opacity: 0.6;
-  filter: grayscale(100%);
-  transition: 0.3 ease 0s; }
-div.tab-menu div.tab-box.hover {
-  background: #fff;
-  opacity: 1;
-  filter: grayscale(0%); }
+div.tab-menu {
+  background-color: #e5e5e5; }
+  div.tab-menu div.tab-box {
+    background-color: inherit;
+    text-align: center;
+    opacity: 0.6;
+    filter: grayscale(100%);
+    transition: 0.3 ease 0s; }
+  div.tab-menu div.tab-box.hover {
+    background: #fff;
+    opacity: 1;
+    filter: grayscale(0%); }
 
 /*img profile*/
 img.profile {

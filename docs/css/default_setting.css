@@ -31,6 +31,9 @@ body {
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: transparent; }
 
+body:lang(en) {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; }
+
 ol, ul {
   list-style: none; }
 

@@ -278,8 +278,9 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
 
 /*tab menu*/
 div.tab-menu{
+	background-color:#e5e5e5;
 	div.tab-box{
-		background-color:#eee;text-align:center;opacity: 0.6;filter: grayscale(100%);
+		background-color:inherit;text-align:center;opacity: 0.6;filter: grayscale(100%);
 		transition: 0.3 ease 0s;
 	}
 	div.tab-box.hover{background:#fff;opacity:1;filter: grayscale(0%);}
